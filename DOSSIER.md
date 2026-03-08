@@ -2,7 +2,7 @@
 
 **Dossier Version:** v1.1.1  
 **Protocol Compatibility:** Section 11 v11.6+  
-**Date:** [YYYY-MM-DD]  
+**Date:** [2026-03-08]  
 **Primary Source Systems:** Intervals.icu | [Other platforms]
 
 This document serves as a reference template for endurance athletes using the deterministic AI-coaching framework defined in Section 11.
@@ -26,14 +26,14 @@ This document serves as a reference template for endurance athletes using the de
 
 | Field | Value |
 |-------|-------|
-| Name | [Your name or alias] |
-| Age | [Age] |
-| Height | [cm] |
-| Current Weight | [kg] |
-| Target Weight | [kg] |
-| Location | [City, Country] |
+| Name | Klas |
+| Age | 45 |
+| Height | 182 |
+| Current Weight | 82 |
+| Target Weight | 78 |
+| Location | Värmdö, Sweden |
 
-**Weigh-in Protocol:** [e.g., Once weekly, Friday morning, after bathroom, before food/drink]
+**Weigh-in Protocol:** Morning, before breakfast
 
 ### Medications & Supplements (Optional)
 
