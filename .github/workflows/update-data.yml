@@ -22,6 +22,18 @@ jobs:
             "https://intervals.icu/api/v1/athlete/${{ secrets.INTERVALS_ATHLETE_ID }}/activities" \
             -o latest.json
 
+      - name: Install jq
+        run: sudo apt-get install jq
+
+      - name: Build history file
+        run: |
+          if [ -f history.json ]; then
+            jq -s '.[0] + .[1]' history.json latest.json > tmp.json
+            mv tmp.json history.json
+          else
+            cp latest.json history.json
+          fi
+
       - name: Commit data
         run: |
           git config user.name "github-actions[bot]"
