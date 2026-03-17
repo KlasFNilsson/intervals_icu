@@ -15,7 +15,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-03-17T08:29:25.497914",
+    "last_updated": "2026-03-17T09:30:04.155895",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.74"
@@ -44,7 +44,7 @@
       "rhr": {
         "status": "unavailable",
         "value": null,
-        "baseline_7d": 62,
+        "baseline_7d": 63.5,
         "delta_bpm": null
       },
       "sleep": {
@@ -187,8 +187,8 @@
       }
     },
     "current_metrics": {
-      "weight_kg": 82.50201,
-      "resting_hr": 67,
+      "weight_kg": 83.895004,
+      "resting_hr": 68,
       "hrv": null,
       "sleep_quality": null,
       "sleep_hours": null,
@@ -198,9 +198,9 @@
   "derived_metrics": {
     "recovery_index": null,
     "hrv_baseline_7d": null,
-    "rhr_baseline_7d": 62,
+    "rhr_baseline_7d": 63.5,
     "hrv_baseline_28d": null,
-    "rhr_baseline_28d": 64,
+    "rhr_baseline_28d": 64.2,
     "latest_hrv": null,
     "latest_rhr": null,
     "acwr": 0.56,
@@ -372,10 +372,10 @@
     "p_max": null,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-03-17T08:29:25.497031",
+    "calculation_timestamp": "2026-03-17T09:30:04.155011",
     "data_quality": {
       "hrv_data_points": 0,
-      "rhr_data_points": 3,
+      "rhr_data_points": 4,
       "activities_7d": 6,
       "activities_28d": 32,
       "planned_workouts_7d": 0,
@@ -743,19 +743,19 @@
     },
     {
       "date": "2026-03-16",
-      "weight_kg": null,
-      "resting_hr": null,
+      "weight_kg": 83.895004,
+      "resting_hr": 68,
       "hrv_rmssd": null,
       "hrv_sdnn": null,
-      "sleep_hours": null,
-      "sleep_formatted": null,
+      "sleep_hours": 7.54,
+      "sleep_formatted": "7h32m",
       "sleep_quality": null,
       "sleep_score": null,
       "mental_energy": null,
       "fatigue": 2,
       "soreness": 2,
       "avg_sleeping_hr": null,
-      "vo2max": null
+      "vo2max": 48.94
     },
     {
       "date": "2026-03-17",
@@ -789,7 +789,7 @@
     "total_tss": 127,
     "activities_count": 6,
     "avg_hrv": null,
-    "avg_resting_hr": 62.0
+    "avg_resting_hr": 63.5
   },
   "race_calendar": {
     "next_race": null,
