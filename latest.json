@@ -15,7 +15,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-03-19T15:04:43.632819",
+    "last_updated": "2026-03-19T16:06:56.658322",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.74"
@@ -348,7 +348,7 @@
     "p_max": null,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-03-19T15:04:43.631991",
+    "calculation_timestamp": "2026-03-19T16:06:56.657443",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 4,
@@ -813,7 +813,7 @@
       "duration_hours": 0.0,
       "duration_formatted": "0s",
       "workout_summary": null,
-      "description": "1 year training anniversary \n\n266 WOs, of which are:\n146 runs, 190h 56m, 1896k\n120 strength\n11 Hyrox\n7 Row machine\n7 kayak\n4 nordic ski\n3 nordic skates\n1 indoor climbing\n1 indoor swim"
+      "description": "1 year training anniversary \n\n365 days of 269 WOs, of which are:\n146 runs, 190h 56m, 1896k\n120 strength\n11 Hyrox\n10 Kayak\n7 Row machine\n4 nordic ski\n3 nordic skates\n1 indoor climbing\n1 indoor swim"
     }
   ],
   "workout_summary_stats": {
