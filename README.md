@@ -15,7 +15,7 @@
 
 ![Sync Status](https://github.com/klasfnilsson/intervals_icu/actions/workflows/auto-sync.yml/badge.svg)
 
-**Last successful sync:** 2026-03-22 16:53:21 UTC
+**Last successful sync:** 2026-03-22 17:20:21 UTC
 
 Automated training data pipeline from [Intervals.icu](https://intervals.icu) for AI coaching analysis.
 Built on the [Section 11 Protocol](https://github.com/CrankAddict/section-11).
