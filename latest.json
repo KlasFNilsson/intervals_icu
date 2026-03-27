@@ -15,7 +15,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-03-27T19:10:57.421545",
+    "last_updated": "2026-03-27T19:50:38.380098",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.74"
@@ -99,17 +99,11 @@
     "total_duration_decimal_hours": 6.05,
     "total_activities": 6,
     "by_activity_type": {
-      "Run": {
-        "duration_decimal_hours": 0.98,
-        "count": 1,
-        "tss": 63,
-        "distance_km": 8.6
-      },
       "TrailRun": {
-        "duration_decimal_hours": 3.01,
-        "count": 2,
-        "tss": 167,
-        "distance_km": 29.6
+        "duration_decimal_hours": 3.99,
+        "count": 3,
+        "tss": 230,
+        "distance_km": 38.2
       },
       "WeightTraining": {
         "duration_decimal_hours": 2.06,
@@ -362,7 +356,7 @@
     "p_max": null,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-03-27T19:10:57.420708",
+    "calculation_timestamp": "2026-03-27T19:50:38.379290",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 5,
@@ -379,7 +373,7 @@
     {
       "id": "i135191283",
       "date": "2026-03-27T16:24:48",
-      "type": "Run",
+      "type": "TrailRun",
       "name": "Training Session",
       "duration_hours": 0.98,
       "distance_km": 8.6,
@@ -406,8 +400,8 @@
       "efficiency_factor": 1.7088608,
       "hrrc": null,
       "elevation_m": 261.0,
-      "feel": null,
-      "rpe": null,
+      "feel": 2,
+      "rpe": 7,
       "zone_distribution": {
         "hr_zones": {
           "z1_time": 674,
