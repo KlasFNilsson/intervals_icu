@@ -15,7 +15,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-25T14:50:18.695446",
+    "last_updated": "2026-04-25T15:34:35.022509",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.74"
@@ -56,7 +56,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": -10.6
+        "value": -9.5
       }
     },
     "signal_summary": {
@@ -117,10 +117,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 33.85,
-      "atl": 44.45,
-      "tsb": -10.6,
-      "ramp_rate": 2.15,
+      "ctl": 33.66,
+      "atl": 43.12,
+      "tsb": -9.46,
+      "ramp_rate": 1.96,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
@@ -325,7 +325,7 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 3.2,
+          "planned_tss_delta": 2.23,
           "hard_sessions_planned": 0,
           "race_proximity": null,
           "next_week_load": null,
@@ -363,13 +363,13 @@
     "p_max": null,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-04-25T14:50:18.694607",
+    "calculation_timestamp": "2026-04-25T15:34:35.021660",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 3,
       "activities_7d": 7,
       "activities_28d": 24,
-      "planned_workouts_7d": 5,
+      "planned_workouts_7d": 4,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 0
@@ -829,17 +829,6 @@
   ],
   "planned_workouts": [
     {
-      "id": 105595073,
-      "date": "2026-04-25",
-      "name": "Weight WO",
-      "type": "WORKOUT",
-      "planned_tss": 10,
-      "duration_hours": 0.92,
-      "duration_formatted": "55m",
-      "workout_summary": null,
-      "description": "- 55m"
-    },
-    {
       "id": 105595038,
       "date": "2026-04-25",
       "name": "Base run",
@@ -851,15 +840,26 @@
       "description": "- 1h Z2 HR"
     },
     {
-      "id": 105594982,
+      "id": 105595073,
       "date": "2026-04-26",
-      "name": "Base Long Run",
+      "name": "Weight WO",
       "type": "WORKOUT",
-      "planned_tss": 108,
-      "duration_hours": 2.0,
-      "duration_formatted": "2h",
+      "planned_tss": 10,
+      "duration_hours": 0.92,
+      "duration_formatted": "55m",
       "workout_summary": null,
-      "description": "- 2h Z2 HR"
+      "description": "- 55m"
+    },
+    {
+      "id": 106420859,
+      "date": "2026-04-26",
+      "name": "Base run",
+      "type": "WORKOUT",
+      "planned_tss": 56,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": null,
+      "description": "- 1h Z2 HR"
     }
   ],
   "workout_summary_stats": {
