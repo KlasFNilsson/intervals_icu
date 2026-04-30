@@ -15,15 +15,15 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-29T23:48:36.656997",
+    "last_updated": "2026-04-30T02:14:54.717041",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.74"
   },
   "alerts": [],
   "readiness_decision": {
-    "recommendation": "modify",
-    "priority": 2,
+    "recommendation": "go",
+    "priority": 3,
     "signals": {
       "hrv": {
         "status": "unavailable",
@@ -44,11 +44,11 @@
       },
       "acwr": {
         "status": "green",
-        "value": 0.82
+        "value": 0.88
       },
       "feel": {
-        "status": "red",
-        "value": 5
+        "status": "amber",
+        "value": 4
       },
       "ri": {
         "status": "unavailable",
@@ -56,13 +56,13 @@
       },
       "tsb": {
         "status": "green",
-        "value": 1.4
+        "value": 4.7
       }
     },
     "signal_summary": {
       "green": 2,
-      "amber": 0,
-      "red": 1,
+      "amber": 1,
+      "red": 0,
       "unavailable": 4
     },
     "phase_context": {
@@ -72,17 +72,8 @@
       "modifier_applied": "default"
     },
     "race_week_defers": false,
-    "modification": {
-      "triggers": [
-        "feel"
-      ],
-      "suggested_adjustments": {
-        "intensity": "reduce",
-        "volume": "preserve",
-        "cap_zone": null
-      }
-    },
-    "reason": "P2 signal count. 1 red (feel), 0 amber ().",
+    "modification": null,
+    "reason": "P3 green light. 2 green, 1 amber (threshold 2), 0 red. Note: 4 signals unavailable \u2014 limited data.",
     "alarm_refs": []
   },
   "history": {
@@ -126,10 +117,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 32.03,
-      "atl": 30.68,
-      "tsb": 1.35,
-      "ramp_rate": -1.19,
+      "ctl": 31.27,
+      "atl": 26.6,
+      "tsb": 4.67,
+      "ramp_rate": -1.16,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
@@ -195,10 +186,10 @@
     "hrv_baseline_7d": null,
     "rhr_baseline_7d": 62.6,
     "hrv_baseline_28d": null,
-    "rhr_baseline_28d": 60.5,
+    "rhr_baseline_28d": 61.0,
     "latest_hrv": null,
     "latest_rhr": null,
-    "acwr": 0.82,
+    "acwr": 0.88,
     "acwr_interpretation": "optimal",
     "monotony": 0.69,
     "monotony_interpretation": "normal",
@@ -211,7 +202,7 @@
     "stress_tolerance": 1.9,
     "load_recovery_ratio": null,
     "tss_7d_total": 188.0,
-    "tss_28d_total": 913.0,
+    "tss_28d_total": 857.0,
     "zone_distribution_7d": {
       "z1_hours": 2.87,
       "z2_hours": 0.59,
@@ -249,23 +240,23 @@
       "sport": "run"
     },
     "seiler_tid_28d": {
-      "z1_seconds": 56036,
-      "z2_seconds": 5117,
-      "z3_seconds": 8315,
-      "z1_pct": 80.7,
-      "z2_pct": 7.4,
-      "z3_pct": 12.0,
-      "polarization_index": 2.12,
+      "z1_seconds": 53862,
+      "z2_seconds": 4524,
+      "z3_seconds": 7548,
+      "z1_pct": 81.7,
+      "z2_pct": 6.9,
+      "z3_pct": 11.4,
+      "polarization_index": 2.13,
       "classification": "Polarized"
     },
     "seiler_tid_28d_primary": {
-      "z1_seconds": 34461,
-      "z2_seconds": 5066,
-      "z3_seconds": 8313,
-      "z1_pct": 72.0,
-      "z2_pct": 10.6,
-      "z3_pct": 17.4,
-      "polarization_index": 2.07,
+      "z1_seconds": 32287,
+      "z2_seconds": 4473,
+      "z3_seconds": 7546,
+      "z1_pct": 72.9,
+      "z2_pct": 10.1,
+      "z3_pct": 17.0,
+      "polarization_index": 2.09,
       "classification": "Polarized",
       "sport": "run"
     },
@@ -300,8 +291,8 @@
         "classification_7d": "Polarized",
         "classification_28d": "Polarized",
         "pi_7d": 2.29,
-        "pi_28d": 2.12,
-        "pi_delta": 0.17,
+        "pi_28d": 2.13,
+        "pi_delta": 0.16,
         "drift": "consistent",
         "note": "Compares 7d vs 28d Seiler TID to detect distribution shifts. pi_delta positive = more polarized acutely."
       }
@@ -374,12 +365,12 @@
     "p_max": null,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-04-29T23:48:36.656151",
+    "calculation_timestamp": "2026-04-30T02:14:54.716242",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 5,
       "activities_7d": 6,
-      "activities_28d": 24,
+      "activities_28d": 23,
       "planned_workouts_7d": 4,
       "ftp_history_days": {
         "indoor": 0,
@@ -673,22 +664,6 @@
   ],
   "wellness_data": [
     {
-      "date": "2026-04-23",
-      "weight_kg": null,
-      "resting_hr": null,
-      "hrv_rmssd": null,
-      "hrv_sdnn": null,
-      "sleep_hours": null,
-      "sleep_formatted": null,
-      "sleep_quality": null,
-      "sleep_score": null,
-      "mental_energy": null,
-      "fatigue": 2,
-      "soreness": 2,
-      "avg_sleeping_hr": null,
-      "vo2max": null
-    },
-    {
       "date": "2026-04-24",
       "weight_kg": null,
       "resting_hr": 63,
@@ -781,6 +756,22 @@
       "mental_energy": null,
       "fatigue": 3,
       "soreness": 3,
+      "avg_sleeping_hr": null,
+      "vo2max": null
+    },
+    {
+      "date": "2026-04-30",
+      "weight_kg": null,
+      "resting_hr": null,
+      "hrv_rmssd": null,
+      "hrv_sdnn": null,
+      "sleep_hours": null,
+      "sleep_formatted": null,
+      "sleep_quality": null,
+      "sleep_score": null,
+      "mental_energy": null,
+      "fatigue": null,
+      "soreness": null,
       "avg_sleeping_hr": null,
       "vo2max": null
     }
