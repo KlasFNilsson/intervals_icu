@@ -15,7 +15,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-03T00:06:20.425440",
+    "last_updated": "2026-05-03T04:09:24.987316",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.74"
@@ -32,8 +32,8 @@
     }
   ],
   "readiness_decision": {
-    "recommendation": "modify",
-    "priority": 2,
+    "recommendation": "go",
+    "priority": 3,
     "signals": {
       "hrv": {
         "status": "unavailable",
@@ -76,30 +76,20 @@
       "unavailable": 4
     },
     "phase_context": {
-      "phase": "Base",
-      "phase_week": 4,
-      "amber_threshold": 2,
-      "modifier_applied": "default"
+      "phase": "Build",
+      "phase_week": 3,
+      "amber_threshold": 3,
+      "modifier_applied": "build_loosened"
     },
     "race_week_defers": false,
-    "modification": {
-      "triggers": [
-        "acwr",
-        "feel"
-      ],
-      "suggested_adjustments": {
-        "intensity": "reduce",
-        "volume": "reduce",
-        "cap_zone": "Z2"
-      }
-    },
-    "reason": "P2 signal count. 2 amber (acwr, feel) >= threshold 2.",
+    "modification": null,
+    "reason": "P3 green light. 1 green, 2 amber (threshold 3), 0 red. Note: 4 signals unavailable \u2014 limited data.",
     "alarm_refs": []
   },
   "history": {
     "available": true,
-    "last_generated": "2026-03-08",
-    "age_days": 55,
+    "last_generated": "2026-05-03",
+    "age_days": 0,
     "total_months": 35,
     "history_confidence": "high"
   },
@@ -313,16 +303,16 @@
       "note": "No planned workouts in period"
     },
     "phase_detection": {
-      "phase": "Base",
+      "phase": "Build",
       "confidence": "medium",
       "reason_codes": [
         "NO_PLANNED_WORKOUTS"
       ],
       "basis": {
         "stream_1": {
-          "ctl_slope": -0.12,
+          "ctl_slope": 0.15,
           "acwr_trend": "falling",
-          "hard_day_pattern": 1.2,
+          "hard_day_pattern": 2.2,
           "weeks_available": 4
         },
         "stream_2": {
@@ -336,12 +326,12 @@
         "data_quality": "good",
         "stream_agreement": null
       },
-      "previous_phase": "Base",
-      "phase_duration_weeks": 4,
+      "previous_phase": "Build",
+      "phase_duration_weeks": 3,
       "dossier_declared": null,
       "dossier_agreement": null
     },
-    "phase_detected": "Base",
+    "phase_detected": "Build",
     "phase_triggers": [
       "NO_PLANNED_WORKOUTS"
     ],
@@ -366,7 +356,7 @@
     "p_max": null,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-05-03T00:06:20.424596",
+    "calculation_timestamp": "2026-05-03T04:09:24.986526",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 4,
