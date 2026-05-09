@@ -15,7 +15,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-08T23:37:21.988597",
+    "last_updated": "2026-05-09T01:21:30.853260",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.74"
@@ -23,10 +23,10 @@
   "alerts": [
     {
       "metric": "acwr",
-      "value": 0.66,
+      "value": 0.67,
       "severity": "alarm",
       "threshold": "0.75 / 1.35",
-      "context": "ACWR 0.66 outside safe range. Injury/overreach risk elevated.",
+      "context": "ACWR 0.67 outside safe range. Injury/overreach risk elevated.",
       "persistence_days": null,
       "tier": 2
     },
@@ -63,11 +63,11 @@
       },
       "acwr": {
         "status": "amber",
-        "value": 0.66
+        "value": 0.67
       },
       "feel": {
         "status": "green",
-        "value": 3
+        "value": 2
       },
       "ri": {
         "status": "unavailable",
@@ -75,7 +75,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": 4.1
+        "value": 6.9
       }
     },
     "signal_summary": {
@@ -98,7 +98,7 @@
   "history": {
     "available": true,
     "last_generated": "2026-05-03",
-    "age_days": 5,
+    "age_days": 6,
     "total_months": 35,
     "history_confidence": "high"
   },
@@ -130,10 +130,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 30.67,
-      "atl": 26.6,
-      "tsb": 4.07,
-      "ramp_rate": -1.37,
+      "ctl": 29.95,
+      "atl": 23.06,
+      "tsb": 6.89,
+      "ramp_rate": -1.34,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
@@ -199,10 +199,10 @@
     "hrv_baseline_7d": null,
     "rhr_baseline_7d": 64,
     "hrv_baseline_28d": null,
-    "rhr_baseline_28d": 62.6,
+    "rhr_baseline_28d": 62.8,
     "latest_hrv": null,
     "latest_rhr": null,
-    "acwr": 0.66,
+    "acwr": 0.67,
     "acwr_interpretation": "undertraining",
     "monotony": 0.65,
     "monotony_interpretation": "normal",
@@ -215,7 +215,7 @@
     "stress_tolerance": 1.6,
     "load_recovery_ratio": null,
     "tss_7d_total": 165.0,
-    "tss_28d_total": 995.0,
+    "tss_28d_total": 985.0,
     "zone_distribution_7d": {
       "z1_hours": 2.32,
       "z2_hours": 0.71,
@@ -253,12 +253,12 @@
       "sport": "run"
     },
     "seiler_tid_28d": {
-      "z1_seconds": 58605,
+      "z1_seconds": 56987,
       "z2_seconds": 6249,
       "z3_seconds": 9022,
-      "z1_pct": 79.3,
-      "z2_pct": 8.5,
-      "z3_pct": 12.2,
+      "z1_pct": 78.9,
+      "z2_pct": 8.6,
+      "z3_pct": 12.5,
       "polarization_index": 2.06,
       "classification": "Polarized"
     },
@@ -371,12 +371,12 @@
     "p_max": null,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-05-08T23:37:21.987749",
+    "calculation_timestamp": "2026-05-09T01:21:30.852389",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 5,
       "activities_7d": 7,
-      "activities_28d": 27,
+      "activities_28d": 26,
       "planned_workouts_7d": 0,
       "ftp_history_days": {
         "indoor": 0,
@@ -714,22 +714,6 @@
   ],
   "wellness_data": [
     {
-      "date": "2026-05-02",
-      "weight_kg": null,
-      "resting_hr": null,
-      "hrv_rmssd": null,
-      "hrv_sdnn": null,
-      "sleep_hours": 6.27,
-      "sleep_formatted": "6h16m",
-      "sleep_quality": null,
-      "sleep_score": null,
-      "mental_energy": null,
-      "fatigue": 3,
-      "soreness": 2,
-      "avg_sleeping_hr": null,
-      "vo2max": null
-    },
-    {
       "date": "2026-05-03",
       "weight_kg": 81.55801,
       "resting_hr": 58,
@@ -822,6 +806,22 @@
       "mental_energy": null,
       "fatigue": 3,
       "soreness": 2,
+      "avg_sleeping_hr": null,
+      "vo2max": null
+    },
+    {
+      "date": "2026-05-09",
+      "weight_kg": null,
+      "resting_hr": null,
+      "hrv_rmssd": null,
+      "hrv_sdnn": null,
+      "sleep_hours": null,
+      "sleep_formatted": null,
+      "sleep_quality": null,
+      "sleep_score": null,
+      "mental_energy": null,
+      "fatigue": null,
+      "soreness": null,
       "avg_sleeping_hr": null,
       "vo2max": null
     }
