@@ -15,7 +15,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-09T17:10:51.894738",
+    "last_updated": "2026-05-09T18:03:53.822651",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.74"
@@ -334,7 +334,7 @@
           "race_proximity": null,
           "next_week_load": null,
           "plan_coverage_current_week": 0.0,
-          "plan_coverage_next_week": 0.4
+          "plan_coverage_next_week": 1.0
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -367,7 +367,7 @@
     "p_max": null,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-05-09T17:10:51.893829",
+    "calculation_timestamp": "2026-05-09T18:03:53.822006",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 6,
@@ -846,6 +846,39 @@
       "description": "Base phase: aerobic capacity, endurance, volume building"
     },
     {
+      "id": 109096642,
+      "date": "2026-05-11",
+      "name": "V\u00e4rmd\u00f6 Ultra 50",
+      "type": "PLAN",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "description": "Base phase: aerobic capacity, endurance, volume building"
+    },
+    {
+      "id": 109096764,
+      "date": "2026-05-11",
+      "name": "V\u00e4rmd\u00f6 Ultra 50",
+      "type": "PLAN",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "description": "Base phase: aerobic capacity, endurance, volume building"
+    },
+    {
+      "id": 109096804,
+      "date": "2026-05-11",
+      "name": "V\u00e4rmd\u00f6 Ultra 50",
+      "type": "PLAN",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "description": "Base phase: aerobic capacity, endurance, volume building"
+    },
+    {
       "id": 109087971,
       "date": "2026-05-18",
       "name": "Weekly",
@@ -879,6 +912,17 @@
       "description_preview": null
     },
     {
+      "id": 109096767,
+      "date": "2026-06-01",
+      "name": "Recovery Week",
+      "type": "NOTE",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "description_preview": "Focus on easier efforts, reduced volume, and allowing your body to adapt to training stress"
+    },
+    {
       "id": 109087974,
       "date": "2026-06-08",
       "name": "Weekly",
@@ -891,6 +935,28 @@
     },
     {
       "id": 109087994,
+      "date": "2026-06-08",
+      "name": "Recovery Week",
+      "type": "NOTE",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "description_preview": "Focus on easier efforts, reduced volume, and allowing your body to adapt to training stress"
+    },
+    {
+      "id": 109096645,
+      "date": "2026-06-08",
+      "name": "Recovery Week",
+      "type": "NOTE",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "description_preview": "Focus on easier efforts, reduced volume, and allowing your body to adapt to training stress"
+    },
+    {
+      "id": 109096807,
       "date": "2026-06-08",
       "name": "Recovery Week",
       "type": "NOTE",
@@ -917,7 +983,7 @@
     "success": 0,
     "patternA": 0,
     "patternB": 0,
-    "bail_no_workout_doc": 2,
+    "bail_no_workout_doc": 8,
     "bail_no_match": 0
   },
   "weekly_summary": {
