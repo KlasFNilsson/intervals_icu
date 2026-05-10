@@ -15,7 +15,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-10T01:24:56.013458",
+    "last_updated": "2026-05-10T04:58:59.782648",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.74"
@@ -329,7 +329,7 @@
           "planned_tss_delta": 4.16,
           "hard_sessions_planned": 0,
           "race_proximity": null,
-          "next_week_load": 1.35,
+          "next_week_load": 1.41,
           "plan_coverage_current_week": 0.2,
           "plan_coverage_next_week": 1.8
         },
@@ -364,7 +364,7 @@
     "p_max": null,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-05-10T01:24:56.012575",
+    "calculation_timestamp": "2026-05-10T04:58:59.781780",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 5,
@@ -810,15 +810,15 @@
       "description": "- 40m"
     },
     {
-      "id": 109129636,
+      "id": 109138123,
       "date": "2026-05-14",
-      "name": "Threshold 2x12min",
+      "name": "4*8min z5 rolling trails",
       "type": "WORKOUT",
-      "planned_tss": 94,
-      "duration_hours": 1.0,
-      "duration_formatted": "1h",
-      "workout_summary": null,
-      "description": "- 15m Z2 power\n- 12m z5 Power\n- 3m z2 power\n- 12m z5 power\n- 18m z2 power"
+      "planned_tss": 107,
+      "duration_hours": 1.06,
+      "duration_formatted": "1h3m37s",
+      "workout_summary": "10m30s | 4\u00d78m / 2m rec | 13m7s",
+      "description": "Warmup\n- 2km Z2\n\nMain set 4x\n- 8m z5 LTHR on rolling trail\n- 2m z3 recovery easy jog\n\nCooldown\n- 2.5km Z2"
     },
     {
       "id": 109137480,
@@ -865,6 +865,49 @@
       "description_preview": null
     },
     {
+      "id": 109138177,
+      "date": "2026-05-18",
+      "name": "Base run",
+      "type": "WORKOUT",
+      "planned_tss": 57,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": null,
+      "description_preview": "- 1h Z2 HR"
+    },
+    {
+      "id": 109138180,
+      "date": "2026-05-19",
+      "name": "Weight WO",
+      "type": "WORKOUT",
+      "planned_tss": 10,
+      "duration_hours": 0.67,
+      "duration_formatted": "40m",
+      "workout_summary": null,
+      "description_preview": "- 40m"
+    },
+    {
+      "id": 109138182,
+      "date": "2026-05-20",
+      "name": "Weight WO",
+      "type": "WORKOUT",
+      "planned_tss": 10,
+      "duration_hours": 0.67,
+      "duration_formatted": "40m",
+      "workout_summary": null,
+      "description_preview": "- 40m"
+    },
+    {
+      "id": 109138175,
+      "date": "2026-05-21",
+      "name": "4*8min z5 rolling trails",
+      "type": "WORKOUT",
+      "planned_tss": 107,
+      "duration_hours": 1.06,
+      "duration_formatted": "1h3m37s",
+      "workout_summary": "10m30s | 4\u00d78m / 2m rec | 13m7s"
+    },
+    {
       "id": 109130432,
       "date": "2026-05-23",
       "name": "Base Long Run",
@@ -874,6 +917,17 @@
       "duration_formatted": "2h35m",
       "workout_summary": null,
       "description_preview": "- 2h 35m Z2 HR"
+    },
+    {
+      "id": 109138183,
+      "date": "2026-05-24",
+      "name": "Weight WO",
+      "type": "WORKOUT",
+      "planned_tss": 10,
+      "duration_hours": 0.67,
+      "duration_formatted": "40m",
+      "workout_summary": null,
+      "description_preview": "- 40m"
     },
     {
       "id": 109129810,
@@ -898,6 +952,49 @@
       "description_preview": null
     },
     {
+      "id": 109138188,
+      "date": "2026-05-25",
+      "name": "Base run",
+      "type": "WORKOUT",
+      "planned_tss": 57,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": null,
+      "description_preview": "- 1h Z2 HR"
+    },
+    {
+      "id": 109138190,
+      "date": "2026-05-26",
+      "name": "Weight WO",
+      "type": "WORKOUT",
+      "planned_tss": 10,
+      "duration_hours": 0.67,
+      "duration_formatted": "40m",
+      "workout_summary": null,
+      "description_preview": "- 40m"
+    },
+    {
+      "id": 109138191,
+      "date": "2026-05-27",
+      "name": "Weight WO",
+      "type": "WORKOUT",
+      "planned_tss": 10,
+      "duration_hours": 0.67,
+      "duration_formatted": "40m",
+      "workout_summary": null,
+      "description_preview": "- 40m"
+    },
+    {
+      "id": 109138189,
+      "date": "2026-05-28",
+      "name": "4*8min z5 rolling trails",
+      "type": "WORKOUT",
+      "planned_tss": 107,
+      "duration_hours": 1.06,
+      "duration_formatted": "1h3m37s",
+      "workout_summary": "10m30s | 4\u00d78m / 2m rec | 13m7s"
+    },
+    {
       "id": 109130449,
       "date": "2026-05-30",
       "name": "Base Long Run",
@@ -907,6 +1004,17 @@
       "duration_formatted": "2h40m",
       "workout_summary": null,
       "description_preview": "- 2h 40m  Z2 HR"
+    },
+    {
+      "id": 109138192,
+      "date": "2026-05-31",
+      "name": "Weight WO",
+      "type": "WORKOUT",
+      "planned_tss": 10,
+      "duration_hours": 0.67,
+      "duration_formatted": "40m",
+      "workout_summary": null,
+      "description_preview": "- 40m"
     },
     {
       "id": 109129811,
@@ -940,17 +1048,6 @@
       "duration_formatted": "1h",
       "workout_summary": null,
       "description_preview": "- 1h Z2 HR"
-    },
-    {
-      "id": 109130524,
-      "date": "2026-06-04",
-      "name": "Threshold 2x12min",
-      "type": "WORKOUT",
-      "planned_tss": 94,
-      "duration_hours": 1.0,
-      "duration_formatted": "1h",
-      "workout_summary": null,
-      "description_preview": "- 15m Z2 power\n- 12m z5 Power\n- 3m z2 power"
     },
     {
       "id": 109130500,
@@ -1031,12 +1128,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 13,
-    "success": 0,
-    "patternA": 0,
+    "attempted": 22,
+    "success": 3,
+    "patternA": 3,
     "patternB": 0,
     "bail_no_workout_doc": 2,
-    "bail_no_match": 13
+    "bail_no_match": 19
   },
   "weekly_summary": {
     "total_training_hours": 3.24,
