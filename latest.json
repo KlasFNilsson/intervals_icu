@@ -15,7 +15,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-10T12:40:12.770872",
+    "last_updated": "2026-05-10T14:06:22.141219",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.74"
@@ -361,7 +361,7 @@
     "p_max": null,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-05-10T12:40:12.770079",
+    "calculation_timestamp": "2026-05-10T14:06:22.140404",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 6,
@@ -950,12 +950,12 @@
     {
       "id": 109138175,
       "date": "2026-05-21",
-      "name": "4*8min z5 rolling trails",
+      "name": "8x450 meters uphill",
       "type": "WORKOUT",
-      "planned_tss": 107,
-      "duration_hours": 1.06,
-      "duration_formatted": "1h3m37s",
-      "workout_summary": "10m30s | 4\u00d78m / 2m rec | 13m7s"
+      "planned_tss": 82,
+      "duration_hours": 0.98,
+      "duration_formatted": "58m33s",
+      "workout_summary": "10m30s | 8\u00d72m22s / 2m rec | 13m7s"
     },
     {
       "id": 109130432,
