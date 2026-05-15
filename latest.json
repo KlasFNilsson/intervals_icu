@@ -15,7 +15,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-15T11:33:03.178377",
+    "last_updated": "2026-05-15T13:17:09.706437",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.74"
@@ -355,7 +355,7 @@
     "p_max": null,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-05-15T11:33:03.177248",
+    "calculation_timestamp": "2026-05-15T13:17:09.705633",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 4,
@@ -964,9 +964,9 @@
     {
       "id": 109138189,
       "date": "2026-05-28",
-      "name": "4*8min z5 rolling trails",
+      "name": "4x8+2min fartlek",
       "type": "WORKOUT",
-      "planned_tss": 107,
+      "planned_tss": 90,
       "duration_hours": 1.06,
       "duration_formatted": "1h3m37s",
       "workout_summary": "10m30s | 4\u00d78m / 2m rec | 13m7s"
@@ -1016,6 +1016,17 @@
       "description_preview": null
     },
     {
+      "id": 110267756,
+      "date": "2026-06-01",
+      "name": "Weight WO",
+      "type": "WORKOUT",
+      "planned_tss": 10,
+      "duration_hours": 0.67,
+      "duration_formatted": "40m",
+      "workout_summary": null,
+      "description_preview": "- 40m"
+    },
+    {
       "id": 109130513,
       "date": "2026-06-02",
       "name": "Base run",
@@ -1025,6 +1036,38 @@
       "duration_formatted": "1h",
       "workout_summary": null,
       "description_preview": "- 1h Z2 HR"
+    },
+    {
+      "id": 110267765,
+      "date": "2026-06-03",
+      "name": "Weight WO",
+      "type": "WORKOUT",
+      "planned_tss": 10,
+      "duration_hours": 0.67,
+      "duration_formatted": "40m",
+      "workout_summary": null,
+      "description_preview": "- 40m"
+    },
+    {
+      "id": 110267712,
+      "date": "2026-06-04",
+      "name": "4x8+2min fartlek",
+      "type": "WORKOUT",
+      "planned_tss": 90,
+      "duration_hours": 1.06,
+      "duration_formatted": "1h3m37s",
+      "workout_summary": "10m30s | 4\u00d78m / 2m rec | 13m7s"
+    },
+    {
+      "id": 110267779,
+      "date": "2026-06-05",
+      "name": "Weight WO",
+      "type": "WORKOUT",
+      "planned_tss": 10,
+      "duration_hours": 0.67,
+      "duration_formatted": "40m",
+      "workout_summary": null,
+      "description_preview": "- 40m"
     },
     {
       "id": 109130500,
@@ -1127,12 +1170,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 18,
-    "success": 2,
-    "patternA": 2,
+    "attempted": 22,
+    "success": 3,
+    "patternA": 3,
     "patternB": 0,
     "bail_no_workout_doc": 1,
-    "bail_no_match": 16
+    "bail_no_match": 19
   },
   "weekly_summary": {
     "total_training_hours": 6.01,
