@@ -15,7 +15,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-17T00:06:44.428187",
+    "last_updated": "2026-05-17T04:19:47.572978",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.74"
@@ -120,9 +120,9 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 34.8,
-      "atl": 45.07,
-      "tsb": -10.27,
+      "ctl": 34.77,
+      "atl": 45.05,
+      "tsb": -10.28,
       "ramp_rate": 5.56,
       "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
@@ -205,7 +205,7 @@
     "stress_tolerance": 3.3,
     "load_recovery_ratio": null,
     "tss_7d_total": 330.0,
-    "tss_28d_total": 967.0,
+    "tss_28d_total": 965.0,
     "zone_distribution_7d": {
       "z1_hours": 3.49,
       "z2_hours": 1.18,
@@ -330,7 +330,7 @@
           "planned_tss_delta": 0.29,
           "hard_sessions_planned": 0,
           "race_proximity": null,
-          "next_week_load": 1.32,
+          "next_week_load": 1.4,
           "plan_coverage_current_week": 0.2,
           "plan_coverage_next_week": 1.6
         },
@@ -365,7 +365,7 @@
     "p_max": null,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-05-17T00:06:44.427362",
+    "calculation_timestamp": "2026-05-17T04:19:47.572122",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 4,
@@ -788,8 +788,8 @@
       "sleep_quality": null,
       "sleep_score": null,
       "mental_energy": null,
-      "fatigue": null,
-      "soreness": null,
+      "fatigue": 2,
+      "soreness": 3,
       "avg_sleeping_hr": null,
       "vo2max": null
     }
@@ -833,11 +833,11 @@
       "date": "2026-05-18",
       "name": "Base run",
       "type": "WORKOUT",
-      "planned_tss": 57,
-      "duration_hours": 1.0,
-      "duration_formatted": "1h",
+      "planned_tss": 76,
+      "duration_hours": 1.33,
+      "duration_formatted": "1h20m",
       "workout_summary": null,
-      "description": "- 1h Z2 HR"
+      "description": "- 1h20m Z2 HR"
     },
     {
       "id": 109138180,
@@ -948,6 +948,17 @@
       "duration_formatted": "40m",
       "workout_summary": null,
       "description_preview": "- 40m"
+    },
+    {
+      "id": 110521207,
+      "date": "2026-05-27",
+      "name": "Base run",
+      "type": "WORKOUT",
+      "planned_tss": 38,
+      "duration_hours": 0.67,
+      "duration_formatted": "40m",
+      "workout_summary": null,
+      "description_preview": "- 40m Z2 HR"
     },
     {
       "id": 109138189,
@@ -1158,12 +1169,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 20,
+    "attempted": 21,
     "success": 3,
     "patternA": 3,
     "patternB": 0,
     "bail_no_workout_doc": 1,
-    "bail_no_match": 17
+    "bail_no_match": 18
   },
   "weekly_summary": {
     "total_training_hours": 6.44,
