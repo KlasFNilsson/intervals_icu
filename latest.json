@@ -15,7 +15,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-18T01:34:10.771570",
+    "last_updated": "2026-05-18T05:56:31.088778",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.74"
@@ -126,10 +126,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 34.21,
-      "atl": 40.56,
-      "tsb": -6.35,
-      "ramp_rate": 2.4,
+      "ctl": 34.02,
+      "atl": 39.4,
+      "tsb": -5.38,
+      "ramp_rate": 2.21,
       "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
@@ -335,7 +335,7 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 1.4,
+          "planned_tss_delta": 1.42,
           "hard_sessions_planned": 1,
           "race_proximity": null,
           "next_week_load": 1.54,
@@ -373,7 +373,7 @@
     "p_max": null,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-05-18T01:34:10.770783",
+    "calculation_timestamp": "2026-05-18T05:56:31.087923",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 5,
@@ -796,8 +796,8 @@
       "sleep_quality": null,
       "sleep_score": null,
       "mental_energy": null,
-      "fatigue": null,
-      "soreness": null,
+      "fatigue": 3,
+      "soreness": 2,
       "avg_sleeping_hr": null,
       "vo2max": null
     }
@@ -863,11 +863,11 @@
       "date": "2026-05-21",
       "name": "8x450 meters uphill",
       "type": "WORKOUT",
-      "planned_tss": 82,
-      "duration_hours": 0.98,
-      "duration_formatted": "58m33s",
-      "workout_summary": "10m30s | 8\u00d72m22s / 2m rec | 13m7s",
-      "description": "Warmup\n- 2km Z2\n\nMain set 8x\n- 450meters z4 hill 8/10 effort\n- 2m z3 recovery jog down\n\nCooldown\n- 2.5km Z2"
+      "planned_tss": 87,
+      "duration_hours": 1.02,
+      "duration_formatted": "1h1m29s",
+      "workout_summary": "10m30s | 8\u00d72m22s / 2m22s rec | 13m7s",
+      "description": "Warmup\n- 2km Z2\n\nMain set 8x\n- 450meters z4 hill 8/10 effort\n- 450meters z3 recovery jog down\n\nCooldown\n- 2.5km Z2"
     },
     {
       "id": 109130432,
