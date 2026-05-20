@@ -15,7 +15,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-20T12:41:36.503699",
+    "last_updated": "2026-05-20T16:16:40.756390",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.74"
@@ -324,7 +324,7 @@
           "hard_sessions_planned": 1,
           "race_proximity": null,
           "next_week_load": 1.54,
-          "plan_coverage_current_week": 0.8,
+          "plan_coverage_current_week": 1.0,
           "plan_coverage_next_week": 1.8
         },
         "data_quality": "good",
@@ -358,13 +358,13 @@
     "p_max": null,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-05-20T12:41:36.502813",
+    "calculation_timestamp": "2026-05-20T16:16:40.755544",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 5,
       "activities_7d": 7,
       "activities_28d": 23,
-      "planned_workouts_7d": 9,
+      "planned_workouts_7d": 10,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 0
@@ -844,6 +844,17 @@
       "description": "- 40m"
     },
     {
+      "id": 111374337,
+      "date": "2026-05-20",
+      "name": "No Alcohol test",
+      "type": "NOTE",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "description": "2-4 week test totally without alcohol. Results measured by HRV, RHR, Sleep time, Deep sleep time, subjective: soreness, fatigue and motivation score."
+    },
+    {
       "id": 109138175,
       "date": "2026-05-21",
       "name": "8x450 meters uphill",
@@ -1177,7 +1188,7 @@
     "success": 3,
     "patternA": 3,
     "patternB": 0,
-    "bail_no_workout_doc": 1,
+    "bail_no_workout_doc": 2,
     "bail_no_match": 15
   },
   "weekly_summary": {
