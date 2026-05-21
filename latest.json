@@ -15,7 +15,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-21T02:41:41.926817",
+    "last_updated": "2026-05-21T06:37:14.012050",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.74"
@@ -56,7 +56,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": -1.2
+        "value": -0.2
       }
     },
     "signal_summary": {
@@ -95,17 +95,11 @@
         "tss": 3,
         "distance_km": 12.3
       },
-      "Run": {
-        "duration_decimal_hours": 0.99,
-        "count": 1,
-        "tss": 57,
-        "distance_km": 8.7
-      },
       "TrailRun": {
-        "duration_decimal_hours": 3.59,
-        "count": 3,
-        "tss": 165,
-        "distance_km": 33.5
+        "duration_decimal_hours": 4.58,
+        "count": 4,
+        "tss": 222,
+        "distance_km": 42.2
       },
       "WeightTraining": {
         "duration_decimal_hours": 1.36,
@@ -117,10 +111,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 33.43,
-      "atl": 34.62,
-      "tsb": -1.19,
-      "ramp_rate": 1.78,
+      "ctl": 33.25,
+      "atl": 33.47,
+      "tsb": -0.22,
+      "ramp_rate": 1.6,
       "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
@@ -326,11 +320,11 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 1.79,
+          "planned_tss_delta": 1.95,
           "hard_sessions_planned": 1,
           "race_proximity": null,
           "next_week_load": 1.54,
-          "plan_coverage_current_week": 0.6,
+          "plan_coverage_current_week": 0.8,
           "plan_coverage_next_week": 1.8
         },
         "data_quality": "good",
@@ -364,13 +358,13 @@
     "p_max": null,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-05-21T02:41:41.926197",
+    "calculation_timestamp": "2026-05-21T06:37:14.011200",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 4,
       "activities_7d": 7,
       "activities_28d": 24,
-      "planned_workouts_7d": 10,
+      "planned_workouts_7d": 9,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 0
@@ -381,7 +375,7 @@
     {
       "id": "i150109026",
       "date": "2026-05-20T20:01:50",
-      "type": "Run",
+      "type": "TrailRun",
       "name": "Training Session",
       "duration_hours": 0.99,
       "distance_km": 8.71,
@@ -408,7 +402,7 @@
       "efficiency_factor": 1.5620915,
       "hrrc": null,
       "elevation_m": 111.0,
-      "feel": null,
+      "feel": 2,
       "rpe": 3,
       "zone_distribution": {
         "hr_zones": {
@@ -831,23 +825,34 @@
       "sleep_quality": null,
       "sleep_score": null,
       "mental_energy": null,
-      "fatigue": null,
-      "soreness": null,
+      "fatigue": 2,
+      "soreness": 2,
       "avg_sleeping_hr": null,
       "vo2max": null
     }
   ],
   "planned_workouts": [
     {
-      "id": 109138175,
+      "id": 111464543,
       "date": "2026-05-21",
-      "name": "8x450 meters uphill",
+      "name": "Threshold test",
       "type": "WORKOUT",
-      "planned_tss": 87,
-      "duration_hours": 1.02,
-      "duration_formatted": "1h1m29s",
-      "workout_summary": "10m30s | 8\u00d72m22s / 2m22s rec | 13m7s",
-      "description": "Warmup\n- 2km Z2\n\nMain set 8x\n- 450meters z4 hill 8/10 effort\n- 450meters z3 recovery jog down\n\nCooldown\n- 2.5km Z2"
+      "planned_tss": 99,
+      "duration_hours": 1.17,
+      "duration_formatted": "1h10m",
+      "workout_summary": null,
+      "description": "- 20m z2 warm-up\n- 30m z4 threshold test\n- 20m z2 cool-down"
+    },
+    {
+      "id": 109138182,
+      "date": "2026-05-22",
+      "name": "Weight WO",
+      "type": "WORKOUT",
+      "planned_tss": 10,
+      "duration_hours": 0.67,
+      "duration_formatted": "40m",
+      "workout_summary": null,
+      "description": "- 40m"
     },
     {
       "id": 109130432,
@@ -1026,14 +1031,14 @@
       "description_preview": "- 40m"
     },
     {
-      "id": 110267712,
+      "id": 109138175,
       "date": "2026-06-04",
-      "name": "4x8+2min fartlek",
+      "name": "8x450 meters uphill",
       "type": "WORKOUT",
-      "planned_tss": 90,
-      "duration_hours": 1.06,
-      "duration_formatted": "1h3m37s",
-      "workout_summary": "10m30s | 4\u00d78m / 2m rec | 13m7s"
+      "planned_tss": 87,
+      "duration_hours": 1.02,
+      "duration_formatted": "1h1m29s",
+      "workout_summary": "10m30s | 8\u00d72m22s / 2m22s rec | 13m7s"
     },
     {
       "id": 110267779,
@@ -1045,6 +1050,17 @@
       "duration_formatted": "40m",
       "workout_summary": null,
       "description_preview": "- 40m"
+    },
+    {
+      "id": 111461438,
+      "date": "2026-06-06",
+      "name": "Mid june race fueling practice",
+      "type": "NOTE",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "description_preview": "Aim for zone 2-3 for 3 hours."
     },
     {
       "id": 109130500,
@@ -1146,6 +1162,17 @@
       "description_preview": null
     },
     {
+      "id": 111461652,
+      "date": "2026-06-27",
+      "name": "2 day Back-to-back run",
+      "type": "NOTE",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "description_preview": "Day 1 3 hour trail run\nDay 2 90 min easy hike/jog on tired legs"
+    },
+    {
       "id": 109129815,
       "date": "2026-06-29",
       "name": "Weekly",
@@ -1169,12 +1196,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 17,
-    "success": 3,
-    "patternA": 3,
+    "attempted": 18,
+    "success": 2,
+    "patternA": 2,
     "patternB": 0,
-    "bail_no_workout_doc": 1,
-    "bail_no_match": 14
+    "bail_no_workout_doc": 3,
+    "bail_no_match": 16
   },
   "weekly_summary": {
     "total_training_hours": 6.67,
