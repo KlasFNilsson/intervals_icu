@@ -15,7 +15,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-22T11:15:56.237273",
+    "last_updated": "2026-05-22T13:41:21.006773",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.74"
@@ -56,7 +56,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": -8.7
+        "value": -7.5
       }
     },
     "signal_summary": {
@@ -117,10 +117,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 35.0,
-      "atl": 43.65,
-      "tsb": -8.65,
-      "ramp_rate": 1.79,
+      "ctl": 34.82,
+      "atl": 42.32,
+      "tsb": -7.5,
+      "ramp_rate": 1.6,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
@@ -325,11 +325,11 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 2.6,
+          "planned_tss_delta": 2.5,
           "hard_sessions_planned": 1,
           "race_proximity": null,
           "next_week_load": 1.54,
-          "plan_coverage_current_week": 0.8,
+          "plan_coverage_current_week": 0.6,
           "plan_coverage_next_week": 1.8
         },
         "data_quality": "good",
@@ -363,13 +363,13 @@
     "p_max": null,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-05-22T11:15:56.236453",
+    "calculation_timestamp": "2026-05-22T13:41:21.005910",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 4,
       "activities_7d": 6,
       "activities_28d": 23,
-      "planned_workouts_7d": 9,
+      "planned_workouts_7d": 8,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 0
@@ -794,17 +794,6 @@
   ],
   "planned_workouts": [
     {
-      "id": 109138182,
-      "date": "2026-05-22",
-      "name": "Weight WO",
-      "type": "WORKOUT",
-      "planned_tss": 10,
-      "duration_hours": 0.67,
-      "duration_formatted": "40m",
-      "workout_summary": null,
-      "description": "- 40m"
-    },
-    {
       "id": 111464543,
       "date": "2026-05-22",
       "name": "Threshold test",
@@ -816,19 +805,8 @@
       "description": "- 20m z2 warm-up\n- 30m z4 threshold test\n- 20m z2 cool-down"
     },
     {
-      "id": 109130432,
-      "date": "2026-05-23",
-      "name": "Base Long Run",
-      "type": "WORKOUT",
-      "planned_tss": 147,
-      "duration_hours": 2.58,
-      "duration_formatted": "2h35m",
-      "workout_summary": null,
-      "description": "- 2h 35m Z2 HR"
-    },
-    {
       "id": 109138183,
-      "date": "2026-05-24",
+      "date": "2026-05-23",
       "name": "Weight WO",
       "type": "WORKOUT",
       "planned_tss": 10,
@@ -836,6 +814,17 @@
       "duration_formatted": "40m",
       "workout_summary": null,
       "description": "- 40m"
+    },
+    {
+      "id": 109130432,
+      "date": "2026-05-24",
+      "name": "Base Long Run",
+      "type": "WORKOUT",
+      "planned_tss": 147,
+      "duration_hours": 2.58,
+      "duration_formatted": "2h35m",
+      "workout_summary": null,
+      "description": "- 2h 35m Z2 HR"
     },
     {
       "id": 109129810,
@@ -1157,12 +1146,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 18,
+    "attempted": 17,
     "success": 2,
     "patternA": 2,
     "patternB": 0,
     "bail_no_workout_doc": 3,
-    "bail_no_match": 16
+    "bail_no_match": 15
   },
   "weekly_summary": {
     "total_training_hours": 6.63,
