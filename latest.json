@@ -15,7 +15,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-23T11:56:04.314230",
+    "last_updated": "2026-05-23T13:16:04.566875",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.74"
@@ -34,7 +34,7 @@
       "rhr": {
         "status": "unavailable",
         "value": null,
-        "baseline_7d": 61,
+        "baseline_7d": 60.2,
         "delta_bpm": null
       },
       "sleep": {
@@ -173,8 +173,8 @@
       }
     },
     "current_metrics": {
-      "weight_kg": 81.442,
-      "resting_hr": 60,
+      "weight_kg": 82.109,
+      "resting_hr": 58,
       "hrv": null,
       "sleep_quality": null,
       "sleep_hours": null,
@@ -184,9 +184,9 @@
   "derived_metrics": {
     "recovery_index": null,
     "hrv_baseline_7d": null,
-    "rhr_baseline_7d": 61,
+    "rhr_baseline_7d": 60.2,
     "hrv_baseline_28d": null,
-    "rhr_baseline_28d": 62.7,
+    "rhr_baseline_28d": 62.5,
     "latest_hrv": null,
     "latest_rhr": null,
     "acwr": 0.82,
@@ -364,10 +364,10 @@
     "p_max": null,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-05-23T11:56:04.313419",
+    "calculation_timestamp": "2026-05-23T13:16:04.566265",
     "data_quality": {
       "hrv_data_points": 0,
-      "rhr_data_points": 3,
+      "rhr_data_points": 4,
       "activities_7d": 6,
       "activities_28d": 23,
       "planned_workouts_7d": 9,
@@ -753,19 +753,19 @@
     },
     {
       "date": "2026-05-22",
-      "weight_kg": null,
-      "resting_hr": null,
+      "weight_kg": 82.109,
+      "resting_hr": 58,
       "hrv_rmssd": null,
       "hrv_sdnn": null,
-      "sleep_hours": null,
-      "sleep_formatted": null,
+      "sleep_hours": 7.26,
+      "sleep_formatted": "7h15m",
       "sleep_quality": null,
       "sleep_score": null,
       "mental_energy": null,
       "fatigue": 2,
       "soreness": 1,
       "avg_sleeping_hr": null,
-      "vo2max": null
+      "vo2max": 51.89
     },
     {
       "date": "2026-05-23",
@@ -1140,7 +1140,7 @@
     "total_tss": 199,
     "activities_count": 6,
     "avg_hrv": null,
-    "avg_resting_hr": 61.0
+    "avg_resting_hr": 60.2
   },
   "race_calendar": {
     "next_race": null,
