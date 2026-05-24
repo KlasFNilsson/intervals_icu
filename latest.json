@@ -15,7 +15,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-24T01:28:31.515897",
+    "last_updated": "2026-05-24T05:36:55.572402",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.74"
@@ -328,7 +328,7 @@
           "planned_tss_delta": 4.31,
           "hard_sessions_planned": 0,
           "race_proximity": null,
-          "next_week_load": 1.54,
+          "next_week_load": 1.58,
           "plan_coverage_current_week": 0.2,
           "plan_coverage_next_week": 1.8
         },
@@ -363,7 +363,7 @@
     "p_max": null,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-05-24T01:28:31.515093",
+    "calculation_timestamp": "2026-05-24T05:36:55.571545",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 3,
@@ -833,11 +833,11 @@
       "date": "2026-05-30",
       "name": "Base Long Run",
       "type": "WORKOUT",
-      "planned_tss": 152,
-      "duration_hours": 2.67,
-      "duration_formatted": "2h40m",
+      "planned_tss": 162,
+      "duration_hours": 2.83,
+      "duration_formatted": "2h50m",
       "workout_summary": null,
-      "description": "- 2h 40m  Z2 HR"
+      "description": "- 2h 50m Z2 HR"
     },
     {
       "id": 109138192,
@@ -942,11 +942,11 @@
       "date": "2026-06-06",
       "name": "Base Long Run",
       "type": "WORKOUT",
-      "planned_tss": 157,
-      "duration_hours": 2.75,
-      "duration_formatted": "2h45m",
+      "planned_tss": 171,
+      "duration_hours": 3.0,
+      "duration_formatted": "3h",
       "workout_summary": null,
-      "description_preview": "- 2h 45m Z2 HR"
+      "description_preview": "- 3h Z2 HR"
     },
     {
       "id": 109130520,
