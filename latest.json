@@ -15,7 +15,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-25T12:21:06.150575",
+    "last_updated": "2026-05-25T15:34:01.636842",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.74"
@@ -156,9 +156,9 @@
         "run": {
           "lthr": 184,
           "max_hr": 190,
-          "threshold_pace": 3.8461537,
+          "threshold_pace": 3.6363637,
           "pace_units": "MINS_KM",
-          "ftp": 309,
+          "ftp": 306,
           "ftp_indoor": 309
         },
         "swim": {
@@ -343,7 +343,7 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 1.62,
+          "planned_tss_delta": 1.64,
           "hard_sessions_planned": 1,
           "race_proximity": null,
           "next_week_load": 1.7,
@@ -381,7 +381,7 @@
     "p_max": null,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-05-25T12:21:06.149688",
+    "calculation_timestamp": "2026-05-25T15:34:01.635971",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 4,
@@ -961,10 +961,10 @@
       "date": "2026-05-28",
       "name": "8x450 meters uphill",
       "type": "WORKOUT",
-      "planned_tss": 87,
-      "duration_hours": 1.02,
-      "duration_formatted": "1h1m29s",
-      "workout_summary": "10m30s | 8\u00d72m22s / 2m22s rec | 13m7s",
+      "planned_tss": 91,
+      "duration_hours": 1.08,
+      "duration_formatted": "1h4m58s",
+      "workout_summary": "11m6s | 8\u00d72m30s / 2m30s rec | 13m52s",
       "description": "Warmup\n- 2km Z2\n\nMain set 8x\n- 450meters z4 hill 8/10 effort\n- 450meters z3 recovery jog down\n\nCooldown\n- 2.5km Z2"
     },
     {
@@ -1060,10 +1060,10 @@
       "date": "2026-06-05",
       "name": "4x8+2min fartlek",
       "type": "WORKOUT",
-      "planned_tss": 90,
-      "duration_hours": 1.06,
-      "duration_formatted": "1h3m37s",
-      "workout_summary": "10m30s | 4\u00d78m / 2m rec | 13m7s"
+      "planned_tss": 91,
+      "duration_hours": 1.08,
+      "duration_formatted": "1h4m58s",
+      "workout_summary": "11m6s | 4\u00d78m / 2m rec | 13m52s"
     },
     {
       "id": 111461438,
