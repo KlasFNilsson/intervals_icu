@@ -15,7 +15,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-25T04:52:01.475055",
+    "last_updated": "2026-05-25T08:51:40.677506",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.74"
@@ -337,7 +337,7 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 1.58,
+          "planned_tss_delta": 1.73,
           "hard_sessions_planned": 1,
           "race_proximity": null,
           "next_week_load": 1.68,
@@ -375,7 +375,7 @@
     "p_max": null,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-05-25T04:52:01.474223",
+    "calculation_timestamp": "2026-05-25T08:51:40.676644",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 3,
@@ -789,8 +789,8 @@
       "sleep_quality": null,
       "sleep_score": null,
       "mental_energy": null,
-      "fatigue": null,
-      "soreness": null,
+      "fatigue": 1,
+      "soreness": 2,
       "avg_sleeping_hr": null,
       "vo2max": null
     }
@@ -819,19 +819,8 @@
       "description": ""
     },
     {
-      "id": 109138188,
-      "date": "2026-05-25",
-      "name": "Base run",
-      "type": "WORKOUT",
-      "planned_tss": 57,
-      "duration_hours": 1.0,
-      "duration_formatted": "1h",
-      "workout_summary": null,
-      "description": "- 1h Z2 HR"
-    },
-    {
       "id": 109138190,
-      "date": "2026-05-26",
+      "date": "2026-05-25",
       "name": "Weight WO",
       "type": "WORKOUT",
       "planned_tss": 10,
@@ -839,6 +828,17 @@
       "duration_formatted": "40m",
       "workout_summary": null,
       "description": "- 40m"
+    },
+    {
+      "id": 109138188,
+      "date": "2026-05-26",
+      "name": "Base run",
+      "type": "WORKOUT",
+      "planned_tss": 57,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": null,
+      "description": "- 1h Z2 HR"
     },
     {
       "id": 109138191,
@@ -856,15 +856,15 @@
       "date": "2026-05-27",
       "name": "Base run",
       "type": "WORKOUT",
-      "planned_tss": 38,
-      "duration_hours": 0.67,
-      "duration_formatted": "40m",
+      "planned_tss": 73,
+      "duration_hours": 1.33,
+      "duration_formatted": "1h20m",
       "workout_summary": null,
-      "description": "- 40m Z2 HR"
+      "description": "- 80m Z2 HR"
     },
     {
       "id": 109138189,
-      "date": "2026-05-28",
+      "date": "2026-05-29",
       "name": "4x8+2min fartlek",
       "type": "WORKOUT",
       "planned_tss": 90,
@@ -872,17 +872,6 @@
       "duration_formatted": "1h3m37s",
       "workout_summary": "10m30s | 4\u00d78m / 2m rec | 13m7s",
       "description": "Warmup\n- 2km Z2\n\nMain set 4x\n- 8m z3 steady\n- 2m z5 hard\n\nCooldown\n- 2.5km Z2"
-    },
-    {
-      "id": 109130449,
-      "date": "2026-05-30",
-      "name": "Base Long Run",
-      "type": "WORKOUT",
-      "planned_tss": 162,
-      "duration_hours": 2.83,
-      "duration_formatted": "2h50m",
-      "workout_summary": null,
-      "description": "- 2h 50m Z2 HR"
     },
     {
       "id": 109138192,
@@ -894,6 +883,17 @@
       "duration_formatted": "40m",
       "workout_summary": null,
       "description": "- 40m"
+    },
+    {
+      "id": 109130449,
+      "date": "2026-05-31",
+      "name": "Base Long Run",
+      "type": "WORKOUT",
+      "planned_tss": 162,
+      "duration_hours": 2.83,
+      "duration_formatted": "2h50m",
+      "workout_summary": null,
+      "description": "- 2h 50m Z2 HR"
     },
     {
       "id": 109129811,
