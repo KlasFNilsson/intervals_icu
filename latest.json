@@ -15,7 +15,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-25T15:34:01.636842",
+    "last_updated": "2026-05-25T17:21:55.964793",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.74"
@@ -132,10 +132,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 37.83,
-      "atl": 54.9,
-      "tsb": -17.07,
-      "ramp_rate": 3.67,
+      "ctl": 37.01,
+      "atl": 50.24,
+      "tsb": -13.23,
+      "ramp_rate": 2.84,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
@@ -381,13 +381,13 @@
     "p_max": null,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-05-25T15:34:01.635971",
+    "calculation_timestamp": "2026-05-25T17:21:55.963935",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 4,
       "activities_7d": 8,
       "activities_28d": 25,
-      "planned_workouts_7d": 11,
+      "planned_workouts_7d": 10,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 0
@@ -924,17 +924,6 @@
       "description": "- 40m"
     },
     {
-      "id": 112208179,
-      "date": "2026-05-25",
-      "name": "Easy run",
-      "type": "WORKOUT",
-      "planned_tss": 35,
-      "duration_hours": 0.5,
-      "duration_formatted": "30m",
-      "workout_summary": null,
-      "description": "- 30m HR Z2"
-    },
-    {
       "id": 109138191,
       "date": "2026-05-27",
       "name": "Weight WO",
@@ -966,6 +955,17 @@
       "duration_formatted": "1h4m58s",
       "workout_summary": "11m6s | 8\u00d72m30s / 2m30s rec | 13m52s",
       "description": "Warmup\n- 2km Z2\n\nMain set 8x\n- 450meters z4 hill 8/10 effort\n- 450meters z3 recovery jog down\n\nCooldown\n- 2.5km Z2"
+    },
+    {
+      "id": 112208179,
+      "date": "2026-05-29",
+      "name": "Easy run",
+      "type": "WORKOUT",
+      "planned_tss": 35,
+      "duration_hours": 0.5,
+      "duration_formatted": "30m",
+      "workout_summary": null,
+      "description": "- 30m HR Z2"
     },
     {
       "id": 109138192,
