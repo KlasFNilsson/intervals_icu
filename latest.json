@@ -15,7 +15,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-27T17:17:28.033397",
+    "last_updated": "2026-05-27T19:35:52.176068",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.74"
@@ -56,7 +56,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": -10.6
+        "value": -9.5
       }
     },
     "signal_summary": {
@@ -128,10 +128,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 36.98,
-      "atl": 47.61,
-      "tsb": -10.63,
-      "ramp_rate": 2.94,
+      "ctl": 36.79,
+      "atl": 46.28,
+      "tsb": -9.49,
+      "ramp_rate": 2.75,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
@@ -376,13 +376,13 @@
     "p_max": null,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 51.26,
-    "calculation_timestamp": "2026-05-27T17:17:28.032593",
+    "calculation_timestamp": "2026-05-27T19:35:52.175207",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
       "activities_7d": 7,
       "activities_28d": 25,
-      "planned_workouts_7d": 9,
+      "planned_workouts_7d": 8,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 0
@@ -842,17 +842,6 @@
   ],
   "planned_workouts": [
     {
-      "id": 109138191,
-      "date": "2026-05-27",
-      "name": "Weight WO",
-      "type": "WORKOUT",
-      "planned_tss": 10,
-      "duration_hours": 0.67,
-      "duration_formatted": "40m",
-      "workout_summary": null,
-      "description": "- 40m"
-    },
-    {
       "id": 110521207,
       "date": "2026-05-27",
       "name": "Base run",
@@ -873,6 +862,17 @@
       "duration_formatted": "1h4m58s",
       "workout_summary": "11m6s | 8\u00d72m30s / 2m30s rec | 13m52s",
       "description": "Warmup\n- 2km Z2\n\nMain set 8x\n- 450meters z4 hill 8/10 effort\n- 450meters z3 recovery jog down\n\nCooldown\n- 2.5km Z2"
+    },
+    {
+      "id": 109138191,
+      "date": "2026-05-29",
+      "name": "Weight WO",
+      "type": "WORKOUT",
+      "planned_tss": 10,
+      "duration_hours": 0.67,
+      "duration_formatted": "40m",
+      "workout_summary": null,
+      "description": "- 40m"
     },
     {
       "id": 112208179,
