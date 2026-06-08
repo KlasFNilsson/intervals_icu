@@ -15,7 +15,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-06-08T00:06:55.818785",
+    "last_updated": "2026-06-08T04:59:36.434920",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.74"
@@ -75,7 +75,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": -1.3
+        "value": 14.6
       }
     },
     "signal_summary": {
@@ -86,7 +86,7 @@
     },
     "phase_context": {
       "phase": "Build",
-      "phase_week": 3,
+      "phase_week": 4,
       "amber_threshold": 3,
       "modifier_applied": "build_loosened"
     },
@@ -97,8 +97,8 @@
   },
   "history": {
     "available": true,
-    "last_generated": "2026-05-03",
-    "age_days": 36,
+    "last_generated": "2026-06-08",
+    "age_days": 0,
     "total_months": 35,
     "history_confidence": "high"
   },
@@ -118,10 +118,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 36.05,
-      "atl": 37.31,
-      "tsb": -1.26,
-      "ramp_rate": -1.51,
+      "ctl": 32.12,
+      "atl": 17.57,
+      "tsb": 14.55,
+      "ramp_rate": -5.44,
       "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
@@ -318,9 +318,9 @@
       "reason_codes": [],
       "basis": {
         "stream_1": {
-          "ctl_slope": 0.15,
+          "ctl_slope": 0.53,
           "acwr_trend": "falling",
-          "hard_day_pattern": 2.2,
+          "hard_day_pattern": 1.5,
           "weeks_available": 4
         },
         "stream_2": {
@@ -335,7 +335,7 @@
         "stream_agreement": null
       },
       "previous_phase": "Build",
-      "phase_duration_weeks": 3,
+      "phase_duration_weeks": 4,
       "dossier_declared": null,
       "dossier_agreement": null
     },
@@ -362,7 +362,7 @@
     "p_max": null,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-06-08T00:06:55.817865",
+    "calculation_timestamp": "2026-06-08T04:59:36.434047",
     "data_quality": {
       "hrv_data_points": 6,
       "rhr_data_points": 6,
@@ -573,8 +573,8 @@
       "sleep_quality": null,
       "sleep_score": null,
       "mental_energy": null,
-      "fatigue": null,
-      "soreness": null,
+      "fatigue": 2,
+      "soreness": 2,
       "avg_sleeping_hr": null,
       "vo2max": null
     }
