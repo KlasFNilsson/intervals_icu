@@ -15,7 +15,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-06-22T16:08:48.637796",
+    "last_updated": "2026-06-22T19:44:38.164348",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.74"
@@ -335,7 +335,7 @@
           "hard_sessions_planned": 0,
           "race_proximity": 54,
           "next_week_load": null,
-          "plan_coverage_current_week": 0.6,
+          "plan_coverage_current_week": 1.0,
           "plan_coverage_next_week": 0.4
         },
         "data_quality": "good",
@@ -369,13 +369,13 @@
     "p_max": null,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-06-22T16:08:48.636916",
+    "calculation_timestamp": "2026-06-22T19:44:38.163466",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 6,
       "activities_7d": 7,
       "activities_28d": 17,
-      "planned_workouts_7d": 4,
+      "planned_workouts_7d": 6,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 0
@@ -841,6 +841,28 @@
       "date": "2026-06-22",
       "name": "Weekly",
       "type": "TARGET",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "description": ""
+    },
+    {
+      "id": 117877141,
+      "date": "2026-06-22",
+      "name": "4 p\u00e5 dagen",
+      "type": "NOTE",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "description": ""
+    },
+    {
+      "id": 117877238,
+      "date": "2026-06-22",
+      "name": "4 p\u00e5 dagen",
+      "type": "NOTE",
       "planned_tss": null,
       "duration_hours": 0.0,
       "duration_formatted": "0s",
