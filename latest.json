@@ -15,7 +15,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-06-25T13:24:40.355836",
+    "last_updated": "2026-06-25T15:58:11.457907",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.74"
@@ -140,8 +140,8 @@
       "ctl": 32.6,
       "atl": 32.83,
       "tsb": -0.23,
-      "ramp_rate": 4.07,
-      "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
+      "ramp_rate": 0.35,
+      "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
       "eftp": null,
@@ -317,17 +317,12 @@
         "note": "Compares 7d vs 28d Seiler TID to detect distribution shifts. pi_delta positive = more polarized acutely."
       }
     },
-    "consistency_index": 0.0,
+    "consistency_index": null,
     "consistency_details": {
-      "planned_days": 1,
+      "planned_days": 0,
       "completed_days": 1,
       "matched_days": 0,
-      "planned_dates": [
-        "2026-06-25"
-      ],
-      "completed_dates": [
-        "2026-06-20"
-      ]
+      "note": "No planned workouts in period"
     },
     "phase_detection": {
       "phase": "Build",
@@ -341,11 +336,11 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 3.0,
+          "planned_tss_delta": 2.46,
           "hard_sessions_planned": 0,
           "race_proximity": 51,
           "next_week_load": null,
-          "plan_coverage_current_week": 0.8,
+          "plan_coverage_current_week": 0.6,
           "plan_coverage_next_week": 0.4
         },
         "data_quality": "good",
@@ -379,13 +374,13 @@
     "p_max": null,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-06-25T13:24:40.354976",
+    "calculation_timestamp": "2026-06-25T15:58:11.457056",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 6,
       "activities_7d": 5,
       "activities_28d": 17,
-      "planned_workouts_7d": 7,
+      "planned_workouts_7d": 6,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 0
@@ -757,17 +752,6 @@
   ],
   "planned_workouts": [
     {
-      "id": 117940599,
-      "date": "2026-06-25",
-      "name": "Base run",
-      "type": "WORKOUT",
-      "planned_tss": 71,
-      "duration_hours": 1.0,
-      "duration_formatted": "1h",
-      "workout_summary": null,
-      "description": "- 1h z2"
-    },
-    {
       "id": 111461652,
       "date": "2026-06-27",
       "name": "2 day Back-to-back run",
@@ -956,12 +940,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 3,
+    "attempted": 2,
     "success": 0,
     "patternA": 0,
     "patternB": 0,
     "bail_no_workout_doc": 3,
-    "bail_no_match": 3
+    "bail_no_match": 2
   },
   "weekly_summary": {
     "total_training_hours": 6.3,
