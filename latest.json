@@ -15,7 +15,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-06-28T12:51:44.571792",
+    "last_updated": "2026-06-28T14:44:06.336627",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.74"
@@ -52,9 +52,9 @@
       },
       "rhr": {
         "status": "green",
-        "value": 59,
-        "baseline_7d": 63.1,
-        "delta_bpm": -4.1
+        "value": 67,
+        "baseline_7d": 64.3,
+        "delta_bpm": 2.7
       },
       "sleep": {
         "status": "amber",
@@ -71,7 +71,7 @@
       },
       "ri": {
         "status": "green",
-        "value": 1.06
+        "value": 0.95
       }
     },
     "signal_summary": {
@@ -189,7 +189,7 @@
     },
     "current_metrics": {
       "weight_kg": 79.479004,
-      "resting_hr": 59,
+      "resting_hr": 67,
       "hrv": 32.0,
       "sleep_quality": null,
       "sleep_hours": 5.8,
@@ -197,13 +197,13 @@
     }
   },
   "derived_metrics": {
-    "recovery_index": 1.06,
+    "recovery_index": 0.95,
     "hrv_baseline_7d": 32.4,
-    "rhr_baseline_7d": 63.1,
+    "rhr_baseline_7d": 64.3,
     "hrv_baseline_28d": 31.3,
-    "rhr_baseline_28d": 61.6,
+    "rhr_baseline_28d": 61.9,
     "latest_hrv": 32.0,
-    "latest_rhr": 59,
+    "latest_rhr": 67,
     "acwr": 1.66,
     "acwr_interpretation": "danger",
     "monotony": 0.8,
@@ -215,7 +215,7 @@
     "multi_sport_detected": true,
     "strain": 293.0,
     "stress_tolerance": 3.7,
-    "load_recovery_ratio": 3.5,
+    "load_recovery_ratio": 3.9,
     "tss_7d_total": 366.0,
     "tss_28d_total": 881.0,
     "zone_distribution_7d": {
@@ -341,9 +341,9 @@
           "planned_tss_delta": 3.27,
           "hard_sessions_planned": 0,
           "race_proximity": 48,
-          "next_week_load": null,
+          "next_week_load": 1.78,
           "plan_coverage_current_week": 0.2,
-          "plan_coverage_next_week": 0.4
+          "plan_coverage_next_week": 1.6
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -376,7 +376,7 @@
     "p_max": null,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 48.98,
-    "calculation_timestamp": "2026-06-28T12:51:44.570919",
+    "calculation_timestamp": "2026-06-28T14:44:06.335760",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -835,7 +835,7 @@
     {
       "date": "2026-06-28",
       "weight_kg": null,
-      "resting_hr": 59,
+      "resting_hr": 67,
       "hrv_rmssd": 32.0,
       "hrv_sdnn": null,
       "sleep_hours": 5.8,
@@ -882,6 +882,72 @@
       "duration_formatted": "0s",
       "workout_summary": null,
       "description": ""
+    },
+    {
+      "id": 119099453,
+      "date": "2026-06-29",
+      "name": "Base run",
+      "type": "WORKOUT",
+      "planned_tss": 55,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": null,
+      "description": "- 1h Z2 HR"
+    },
+    {
+      "id": 119099471,
+      "date": "2026-06-30",
+      "name": "Kayak",
+      "type": "WORKOUT",
+      "planned_tss": 31,
+      "duration_hours": 2.0,
+      "duration_formatted": "2h",
+      "workout_summary": null,
+      "description": "- 2h 58% HR"
+    },
+    {
+      "id": 119099475,
+      "date": "2026-07-01",
+      "name": "Kayak",
+      "type": "WORKOUT",
+      "planned_tss": 31,
+      "duration_hours": 2.0,
+      "duration_formatted": "2h",
+      "workout_summary": null,
+      "description": "- 2h 58% HR"
+    },
+    {
+      "id": 119099379,
+      "date": "2026-07-02",
+      "name": "Threshold 2x12min",
+      "type": "WORKOUT",
+      "planned_tss": 94,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": null,
+      "description": "- 15m Z2 power\n- 12m z5 Power\n- 3m z2 power\n- 12m z5 power\n- 18m z2 power"
+    },
+    {
+      "id": 119099143,
+      "date": "2026-07-04",
+      "name": "Base Long Run",
+      "type": "WORKOUT",
+      "planned_tss": 137,
+      "duration_hours": 2.5,
+      "duration_formatted": "2h30m",
+      "workout_summary": null,
+      "description": "- 2h30m Z2 HR"
+    },
+    {
+      "id": 119099363,
+      "date": "2026-07-05",
+      "name": "Base run",
+      "type": "WORKOUT",
+      "planned_tss": 55,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": null,
+      "description": "- 1h Z2 HR"
     },
     {
       "id": 109129816,
@@ -1017,12 +1083,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 1,
+    "attempted": 7,
     "success": 0,
     "patternA": 0,
     "patternB": 0,
     "bail_no_workout_doc": 2,
-    "bail_no_match": 1
+    "bail_no_match": 7
   },
   "weekly_summary": {
     "total_training_hours": 8.95,
@@ -1030,7 +1096,7 @@
     "total_tss": 366,
     "activities_count": 7,
     "avg_hrv": 32.4,
-    "avg_resting_hr": 63.1
+    "avg_resting_hr": 64.3
   },
   "race_calendar": {
     "next_race": {
