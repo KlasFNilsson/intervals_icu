@@ -15,7 +15,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-07-02T13:14:39.753709",
+    "last_updated": "2026-07-02T15:31:30.503061",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.74"
@@ -351,8 +351,8 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 2.21,
-          "hard_sessions_planned": 1,
+          "planned_tss_delta": 2.39,
+          "hard_sessions_planned": 0,
           "race_proximity": 44,
           "next_week_load": null,
           "plan_coverage_current_week": 0.6,
@@ -389,7 +389,7 @@
     "p_max": null,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-07-02T13:14:39.752849",
+    "calculation_timestamp": "2026-07-02T15:31:30.502205",
     "data_quality": {
       "hrv_data_points": 6,
       "rhr_data_points": 6,
@@ -838,23 +838,23 @@
       "sleep_quality": null,
       "sleep_score": null,
       "mental_energy": null,
-      "fatigue": null,
-      "soreness": null,
+      "fatigue": 2,
+      "soreness": 1,
       "avg_sleeping_hr": 64.0,
       "vo2max": null
     }
   ],
   "planned_workouts": [
     {
-      "id": 119099379,
+      "id": 120116526,
       "date": "2026-07-02",
-      "name": "Threshold 2x12min",
+      "name": "TRHD Pyramid 6-8-10-8-6 min",
       "type": "WORKOUT",
-      "planned_tss": 94,
-      "duration_hours": 1.0,
-      "duration_formatted": "1h",
+      "planned_tss": 118,
+      "duration_hours": 1.39,
+      "duration_formatted": "1h23m12s",
       "workout_summary": null,
-      "description": "- 15m Z2 power\n- 12m z5 Power\n- 3m z2 power\n- 12m z5 power\n- 18m z2 power"
+      "description": "- 4km z2\n- 6m z4\n- 2m z2\n- 8m z4\n- 2m z2\n- 10m z4\n- 2m z2\n- 8m z4\n- 2m z2\n- 6m z4\n- 15m z2"
     },
     {
       "id": 119099143,
