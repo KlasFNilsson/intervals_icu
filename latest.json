@@ -15,7 +15,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-07-02T18:55:08.276040",
+    "last_updated": "2026-07-02T20:15:15.467275",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.74"
@@ -339,11 +339,11 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 2.15,
+          "planned_tss_delta": 2.42,
           "hard_sessions_planned": 0,
           "race_proximity": 44,
           "next_week_load": null,
-          "plan_coverage_current_week": 0.6,
+          "plan_coverage_current_week": 0.8,
           "plan_coverage_next_week": 0.6
         },
         "data_quality": "good",
@@ -377,13 +377,13 @@
     "p_max": null,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-07-02T18:55:08.275230",
+    "calculation_timestamp": "2026-07-02T20:15:15.466512",
     "data_quality": {
       "hrv_data_points": 6,
       "rhr_data_points": 6,
       "activities_7d": 8,
       "activities_28d": 22,
-      "planned_workouts_7d": 11,
+      "planned_workouts_7d": 12,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 0
@@ -898,6 +898,17 @@
       "description": "- 4km z2\n- 6m z4\n- 2m z2\n- 8m z4\n- 2m z2\n- 10m z4\n- 2m z2\n- 8m z4\n- 2m z2\n- 6m z4\n- 15m z2"
     },
     {
+      "id": 120156486,
+      "date": "2026-07-03",
+      "name": "Kort transport",
+      "type": "WORKOUT",
+      "planned_tss": 35,
+      "duration_hours": 0.5,
+      "duration_formatted": "30m",
+      "workout_summary": null,
+      "description": "- 30m z2"
+    },
+    {
       "id": 119099143,
       "date": "2026-07-04",
       "name": "Base Long Run",
@@ -1075,12 +1086,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 3,
+    "attempted": 4,
     "success": 0,
     "patternA": 0,
     "patternB": 0,
     "bail_no_workout_doc": 2,
-    "bail_no_match": 3
+    "bail_no_match": 4
   },
   "weekly_summary": {
     "total_training_hours": 12.64,
