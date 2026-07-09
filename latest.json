@@ -15,7 +15,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-07-09T17:05:52.107850",
+    "last_updated": "2026-07-09T18:59:15.863622",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.74"
@@ -352,7 +352,7 @@
           "hard_sessions_planned": 1,
           "race_proximity": 37,
           "next_week_load": null,
-          "plan_coverage_current_week": 1.0,
+          "plan_coverage_current_week": 1.2,
           "plan_coverage_next_week": 0.6
         },
         "data_quality": "good",
@@ -386,13 +386,13 @@
     "p_max": null,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-07-09T17:05:52.106993",
+    "calculation_timestamp": "2026-07-09T18:59:15.862756",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 6,
       "activities_7d": 14,
       "activities_28d": 33,
-      "planned_workouts_7d": 13,
+      "planned_workouts_7d": 14,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 0
@@ -1177,6 +1177,17 @@
     }
   ],
   "planned_workouts": [
+    {
+      "id": 121567301,
+      "date": "2026-07-09",
+      "name": "1",
+      "type": "NOTE",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "description": ""
+    },
     {
       "id": 120832827,
       "date": "2026-07-09",
