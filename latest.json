@@ -15,7 +15,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-07-18T17:28:26.056473",
+    "last_updated": "2026-07-18T18:27:10.980732",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.74"
@@ -330,9 +330,9 @@
           "planned_tss_delta": null,
           "hard_sessions_planned": 0,
           "race_proximity": 28,
-          "next_week_load": 1.63,
+          "next_week_load": 2.14,
           "plan_coverage_current_week": 0.0,
-          "plan_coverage_next_week": 1.0
+          "plan_coverage_next_week": 1.8
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -365,7 +365,7 @@
     "p_max": null,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-07-18T17:28:26.055669",
+    "calculation_timestamp": "2026-07-18T18:27:10.979849",
     "data_quality": {
       "hrv_data_points": 6,
       "rhr_data_points": 6,
@@ -1029,6 +1029,28 @@
       "description": ""
     },
     {
+      "id": 123648057,
+      "date": "2026-07-20",
+      "name": "Weight WO",
+      "type": "WORKOUT",
+      "planned_tss": 10,
+      "duration_hours": 0.67,
+      "duration_formatted": "40m",
+      "workout_summary": null,
+      "description": "- 40m"
+    },
+    {
+      "id": 123341008,
+      "date": "2026-07-20",
+      "name": "Base run",
+      "type": "WORKOUT",
+      "planned_tss": 77,
+      "duration_hours": 1.33,
+      "duration_formatted": "1h20m",
+      "workout_summary": null,
+      "description": "- 1h 20m z2 hr"
+    },
+    {
       "id": 122791680,
       "date": "2026-07-22",
       "name": "Int 4x6m-2m + 4x45s",
@@ -1040,15 +1062,26 @@
       "description": "Warmup\n- 3km Z2 HR\n\nMain Set 4x\n- 6m Z3 HR\n- 2m Z5 HR\n- 2m Z1 HR\n\nSprints 4x\n- 45s Z6 HR\n- 85s Z1 HR\n\nCooldown\n- 2km Z2 HR"
     },
     {
-      "id": 123341008,
-      "date": "2026-07-24",
+      "id": 123648064,
+      "date": "2026-07-23",
+      "name": "Weight WO",
+      "type": "WORKOUT",
+      "planned_tss": 10,
+      "duration_hours": 0.67,
+      "duration_formatted": "40m",
+      "workout_summary": null,
+      "description": "- 40m"
+    },
+    {
+      "id": 123647983,
+      "date": "2026-07-23",
       "name": "Base run",
       "type": "WORKOUT",
-      "planned_tss": 77,
-      "duration_hours": 1.33,
-      "duration_formatted": "1h20m",
+      "planned_tss": 58,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
       "workout_summary": null,
-      "description": "- 1h 20m z2 hr"
+      "description": "- 1h Z2 HR"
     },
     {
       "id": 122436066,
@@ -1060,6 +1093,17 @@
       "duration_formatted": "2h57m34s",
       "workout_summary": null,
       "description": "- 32km Z2,2 HR"
+    },
+    {
+      "id": 123648092,
+      "date": "2026-07-26",
+      "name": "Base run",
+      "type": "WORKOUT",
+      "planned_tss": 39,
+      "duration_hours": 0.67,
+      "duration_formatted": "40m",
+      "workout_summary": null,
+      "description_preview": "- 40m Z2 HR"
     },
     {
       "id": 109129819,
@@ -1238,12 +1282,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 5,
+    "attempted": 9,
     "success": 2,
     "patternA": 2,
     "patternB": 0,
     "bail_no_workout_doc": 4,
-    "bail_no_match": 3
+    "bail_no_match": 7
   },
   "weekly_summary": {
     "total_training_hours": 10.03,
