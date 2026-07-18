@@ -1,0 +1,58 @@
+name: Coach Murphy Morning Message
+
+# ============================================================================
+# Körs dagligen och genererar en kort morgonhälsning från "Coach Murphy"
+# baserat på din senaste Intervals.icu-data (latest.json i det här repot).
+# Resultatet skrivs till morning_message.json som Home Assistant kan läsa.
+#
+# VIKTIGT (tidszon och datafärskhet):
+# GitHub Actions cron körs alltid i UTC, inte svensk tid, och hanterar INTE
+# sommartid automatiskt. "04:00" svensk tid är:
+#   - 03:00 UTC på vintern (CET, UTC+1)
+#   - 02:00 UTC på sommaren (CEST, UTC+2)
+# Cron nedan är satt till 03:00 UTC => faktiskt 04:00 svensk vintertid,
+# men 05:00 svensk sommartid. Justera "0 3 * * *" om du vill kompensera,
+# eller acceptera att tiden glider en timme två gånger om året.
+#
+# Din rMSSD-HRV kommer normalt in i Intervals.icu 05:30-07:30 svensk tid.
+# En körning klockan 04:00 hinner allts INTE med dagens färska HRV-värde -
+# meddelandet baseras då på gårdagens värde. Om du vill ha dagens färska
+# HRV i meddelandet, flytta cron till t.ex. "0 6 * * *" (kl 07:00-08:00
+# svensk tid beroende på säsong) istället.
+# ============================================================================
+
+on:
+  schedule:
+    - cron: "0 3 * * *"   # 04:00 svensk vintertid / 05:00 sommartid
+  workflow_dispatch: {}    # Tillåter manuell körning från GitHub-gränssnittet
+
+permissions:
+  contents: write   # Behövs för att kunna committa morning_message.json tillbaka
+
+jobs:
+  generate-morning-message:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checka ut repot
+        uses: actions/checkout@v4
+
+      - name: Sätt upp Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Installera beroenden
+        run: pip install anthropic
+
+      - name: Generera morgonmeddelande
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python scripts/generate_morning_message.py
+
+      - name: Committa och pusha resultatet
+        run: |
+          git config user.name "coach-murphy-bot"
+          git config user.email "actions@github.com"
+          git add morning_message.json
+          git diff --quiet --cached || git commit -m "Coach Murphy: morgonmeddelande $(date -u +%Y-%m-%d)"
+          git push
