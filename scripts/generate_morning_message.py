@@ -3,13 +3,16 @@
 Genererar Coach Murphys korta morgonmeddelande baserat på latest.json
 (samma fil som redan syncas från Intervals.icu i det här repot).
 
-v2: Fixar en bugg där modellen fick gissa vilket pass som var "igår" kontra
-"idag" utan att veta dagens faktiska datum - det gav fel resultat (påstod
-att gårdagens pass var igår, trots 3 dagars glapp). Nu räknas "dagar sedan"
-ut i Python för varje aktivitet, och dagens datum skickas explicit med.
+v3: Bygger vidare på v2:s dagar_sedan-fix (se den för bakgrund om buggen
+med "igår" vs "idag"). Lägger dessutom till variation så meddelandena inte
+blir strukturellt lika dag efter dag:
+  - Läser gårdagens morning_message.json (om den finns) och instruerar
+    modellen att INTE upprepa samma öppning/struktur
+  - Väljer en av flera "vinklar" (siffra/känsla/detalj) baserat på dagens
+    datum, som en extra knuff utöver temperature=1.0
 
-Läser: latest.json (lokal fil, samma repo)
-Skriver: morning_message.json (lokal fil, committas av GitHub Actions-steget)
+Läser: latest.json, morning_message.json (om den finns sedan tidigare)
+Skriver: morning_message.json (skrivs över, committas av GitHub Actions-steget)
 
 Kräver miljövariabeln ANTHROPIC_API_KEY (satt som GitHub Secret i workflowen).
 """
@@ -24,7 +27,13 @@ from anthropic import Anthropic
 MODEL = "claude-sonnet-5"
 LOCAL_TZ = ZoneInfo("Europe/Stockholm")
 
-SYSTEM_PROMPT = """Du är "Coach Murphy" - en simulerad huvudcoach i Klas eget
+VINKLAR = [
+    "Öppna meddelandet med en konkret siffra (HRV, sömntimmar, distans) innan du sätter den i sammanhang.",
+    "Öppna meddelandet med hur kroppen/känslan verkar ligga till, INTE med en siffra först - väv in siffran senare i meningen.",
+    "Öppna meddelandet med en konkret detalj från senaste passet (var det kördes, hur det kändes) snarare än ett mätvärde.",
+]
+
+SYSTEM_PROMPT_TEMPLATE = """Du är "Coach Murphy" - en simulerad huvudcoach i Klas eget
 AI-coachingsystem. Din uppgift just nu är EN sak: skriv en kort morgon-
 hälsning (2-3 meningar, på svenska) som kompletterar en befintlig Home
 Assistant-morgonhälsning om väder och kalender. Du ska INTE upprepa väder
@@ -36,6 +45,8 @@ ALLTID det fältet för att avgöra om något hände "idag", "igår" eller
 "för X dagar sedan" - räkna eller gissa ALDRIG själv utifrån råa datum.
 Om det senaste passet har dagar_sedan=0, säg "dagens pass" eller liknande,
 INTE "igår". Om dagar_sedan=3, säg "för tre dagar sedan", INTE "igår".
+Detta är den vanligaste källan till fel - dubbelkolla alltid mot fältet
+innan du skriver något om när ett pass ägde rum.
 
 PRIORITETSORDNING (första matchande vinner - välj EN kategori, blanda inte):
 1. VARNING - om något faktiskt är värt att vara försiktig med idag (t.ex.
@@ -55,18 +66,24 @@ Om det inte finns något planerat pass idag ("dagens_planerade_pass" är tom),
 säg det bara om det faktiskt stämmer enligt datan - hitta inte på att det
 är en vilodag om du är osäker, kolla "dagens_planerade_pass"-fältet.
 
+VARIATION (viktigt - detta körs dagligen och får inte kännas som samma mall):
+{vinkel}
+
+Om gårdagens meddelande visas nedan i användarens data: skriv INTE på samma
+sätt. Byt öppningsmening, meningsbyggnad och vinkel jämfört med det.
+
 TON: rak och sakligt varm, som en observant vän - inte tvingat kall, inte
 peppig på ett tomt sätt. Inga klyschor ("du kan göra det!", "toppenjobbat!").
-Variera formulering och vinkel från dag till dag - detta körs dagligen och
-ska inte kännas som samma mall varje gång.
 
 Svara ENDAST med själva meddelandet, ingen inledning, inga rubriker, inga
 citattecken runt texten."""
 
 
-def load_latest_json():
-    with open("latest.json", "r", encoding="utf-8") as f:
-        return json.load(f)
+def load_json_if_exists(path):
+    if os.path.exists(path):
+        with open(path, "r", encoding="utf-8") as f:
+            return json.load(f)
+    return None
 
 
 def days_ago(date_str: str, today: date) -> int:
@@ -76,7 +93,7 @@ def days_ago(date_str: str, today: date) -> int:
     return (today - d).days
 
 
-def build_context(data: dict) -> str:
+def build_context(data: dict, today: date) -> str:
     """Plockar ut det morgonmeddelandet faktiskt behöver, inte hela filen."""
     current = data.get("current_status", {}).get("current_metrics", {})
     derived = data.get("derived_metrics", {})
@@ -84,11 +101,9 @@ def build_context(data: dict) -> str:
     recent = data.get("recent_activities", [])[:3]
     planned = data.get("planned_workouts", [])
 
-    today = datetime.now(LOCAL_TZ).date()
     today_str = today.isoformat()
 
-    # Bara riktiga träningspass idag, inte "Weekly"-målsättningsposter (de
-    # har type "TARGET" och är inte faktiska pass)
+    # Bara riktiga träningspass idag, inte "Weekly"-målsättningsposter
     todays_planned = [
         w for w in planned
         if w.get("date") == today_str and w.get("type") not in ("TARGET", "NOTE")
@@ -122,30 +137,47 @@ def build_context(data: dict) -> str:
     return json.dumps(context, ensure_ascii=False, indent=2)
 
 
-def generate_message(context_json: str) -> str:
+def pick_vinkel(today: date) -> str:
+    """Väljer en av VINKLAR-varianterna baserat på dagens datum, så samma
+    dag alltid ger samma vinkel (deterministiskt) men olika dagar varierar."""
+    idx = today.toordinal() % len(VINKLAR)
+    return VINKLAR[idx]
+
+
+def generate_message(context_json: str, vinkel: str, previous_message: str | None) -> str:
     client = Anthropic()  # Läser ANTHROPIC_API_KEY från miljövariabel
+    system_prompt = SYSTEM_PROMPT_TEMPLATE.format(vinkel=vinkel)
+
+    user_content = f"Dagens data:\n{context_json}\n\n"
+    if previous_message:
+        user_content += f"Gårdagens meddelande (skriv INTE likadant):\n{previous_message}\n\n"
+    user_content += "Skriv dagens morgonmeddelande."
+
     response = client.messages.create(
         model=MODEL,
         max_tokens=300,
-        temperature=1.0,  # Högre temperatur för variation dag till dag
-        system=SYSTEM_PROMPT,
-        messages=[
-            {
-                "role": "user",
-                "content": f"Dagens data:\n{context_json}\n\nSkriv dagens morgonmeddelande.",
-            }
-        ],
+        temperature=1.0,
+        system=system_prompt,
+        messages=[{"role": "user", "content": user_content}],
     )
     return response.content[0].text.strip()
 
 
 def main():
-    data = load_latest_json()
-    context_json = build_context(data)
-    message = generate_message(context_json)
+    with open("latest.json", "r", encoding="utf-8") as f:
+        data = json.load(f)
+
+    today = datetime.now(LOCAL_TZ).date()
+
+    previous = load_json_if_exists("morning_message.json")
+    previous_message = previous.get("message") if previous else None
+
+    context_json = build_context(data, today)
+    vinkel = pick_vinkel(today)
+    message = generate_message(context_json, vinkel, previous_message)
 
     output = {
-        "date": datetime.now(LOCAL_TZ).date().isoformat(),
+        "date": today.isoformat(),
         "generated_at_utc": datetime.now().astimezone().isoformat(),
         "message": message,
     }
