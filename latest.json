@@ -15,7 +15,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-07-20T04:01:25.312669",
+    "last_updated": "2026-07-20T07:26:34.589098",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.74"
@@ -389,13 +389,13 @@
     "p_max": null,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-07-20T04:01:25.311849",
+    "calculation_timestamp": "2026-07-20T07:26:34.588274",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 6,
       "activities_7d": 9,
       "activities_28d": 39,
-      "planned_workouts_7d": 7,
+      "planned_workouts_7d": 6,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 0
@@ -956,17 +956,6 @@
       "description": ""
     },
     {
-      "id": 123648057,
-      "date": "2026-07-20",
-      "name": "Weight WO",
-      "type": "WORKOUT",
-      "planned_tss": 10,
-      "duration_hours": 0.67,
-      "duration_formatted": "40m",
-      "workout_summary": null,
-      "description": "- 40m"
-    },
-    {
       "id": 123341008,
       "date": "2026-07-20",
       "name": "Base run",
@@ -976,6 +965,17 @@
       "duration_formatted": "1h20m",
       "workout_summary": null,
       "description": "- 1h 20m z2 hr"
+    },
+    {
+      "id": 123648057,
+      "date": "2026-07-21",
+      "name": "Weight WO",
+      "type": "WORKOUT",
+      "planned_tss": 10,
+      "duration_hours": 0.67,
+      "duration_formatted": "40m",
+      "workout_summary": null,
+      "description": "- 40m"
     },
     {
       "id": 122791680,
