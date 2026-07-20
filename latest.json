@@ -15,7 +15,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-07-20T12:29:32.171554",
+    "last_updated": "2026-07-20T14:39:31.045932",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.74"
@@ -349,7 +349,7 @@
         "stream_2": {
           "planned_tss_delta": 1.27,
           "hard_sessions_planned": 1,
-          "race_proximity": 26,
+          "race_proximity": 61,
           "next_week_load": 0.22,
           "plan_coverage_current_week": 1.8,
           "plan_coverage_next_week": 0.6
@@ -385,7 +385,7 @@
     "p_max": null,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-07-20T12:29:32.170965",
+    "calculation_timestamp": "2026-07-20T14:39:31.045115",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 6,
@@ -1169,17 +1169,6 @@
       "description_preview": null
     },
     {
-      "id": 112781079,
-      "date": "2026-08-15",
-      "name": "6 Lakes Half Marathon",
-      "type": "RACE_B",
-      "planned_tss": null,
-      "duration_hours": 0.0,
-      "duration_formatted": "0s",
-      "workout_summary": null,
-      "description_preview": "- 2h 15m hr z4"
-    },
-    {
       "id": 111461903,
       "date": "2026-08-16",
       "name": "2 day back-to-back test",
@@ -1295,7 +1284,7 @@
     "success": 2,
     "patternA": 2,
     "patternB": 0,
-    "bail_no_workout_doc": 5,
+    "bail_no_workout_doc": 4,
     "bail_no_match": 7
   },
   "weekly_summary": {
@@ -1308,24 +1297,15 @@
   },
   "race_calendar": {
     "next_race": {
-      "name": "6 Lakes Half Marathon",
-      "date": "2026-08-15",
-      "category": "RACE_B",
+      "name": "V\u00e4rmd\u00f6 Ultra 50",
+      "date": "2026-09-19",
+      "category": "RACE_A",
       "type": "TrailRun",
-      "days_until": 26,
-      "moving_time_seconds": null,
-      "distance_meters": null
+      "days_until": 61,
+      "moving_time_seconds": 21600,
+      "distance_meters": 50000.0
     },
     "all_races": [
-      {
-        "name": "6 Lakes Half Marathon",
-        "date": "2026-08-15",
-        "category": "RACE_B",
-        "type": "TrailRun",
-        "days_until": 26,
-        "moving_time_seconds": null,
-        "distance_meters": null
-      },
       {
         "name": "V\u00e4rmd\u00f6 Ultra 50",
         "date": "2026-09-19",
