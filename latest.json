@@ -15,7 +15,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-07-21T11:28:14.607056",
+    "last_updated": "2026-07-21T12:53:10.515536",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.74"
@@ -376,7 +376,7 @@
     "p_max": null,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-07-21T11:28:14.606141",
+    "calculation_timestamp": "2026-07-21T12:53:10.514694",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 6,
@@ -394,7 +394,7 @@
       "id": "i167677090",
       "date": "2026-07-21T11:21:26",
       "type": "WeightTraining",
-      "name": "Weight WO",
+      "name": "260706 Chest & Arms C",
       "duration_hours": 0.61,
       "distance_km": 0.0,
       "tss": 8,
@@ -420,8 +420,8 @@
       "efficiency_factor": null,
       "hrrc": null,
       "elevation_m": null,
-      "feel": null,
-      "rpe": null,
+      "feel": 2,
+      "rpe": 3,
       "zone_distribution": {
         "hr_zones": {
           "z1_time": 2091,
@@ -535,7 +535,7 @@
       "id": "i167076830",
       "date": "2026-07-19T10:08:00",
       "type": "WeightTraining",
-      "name": "Run strength A",
+      "name": "260706 Run strength A",
       "duration_hours": 0.62,
       "distance_km": 0.0,
       "tss": 11,
@@ -773,7 +773,7 @@
       "id": "i165965451",
       "date": "2026-07-15T13:18:49",
       "type": "WeightTraining",
-      "name": "Strength Training",
+      "name": "260706 Chest & Arms C",
       "duration_hours": 0.56,
       "distance_km": 0.0,
       "tss": 7,
