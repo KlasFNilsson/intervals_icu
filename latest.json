@@ -15,7 +15,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-07-22T13:09:42.297044",
+    "last_updated": "2026-07-22T15:15:17.297366",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.74"
@@ -349,10 +349,10 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 1.46,
+          "planned_tss_delta": 1.45,
           "hard_sessions_planned": 1,
           "race_proximity": 59,
-          "next_week_load": 1.29,
+          "next_week_load": 1.31,
           "plan_coverage_current_week": 1.0,
           "plan_coverage_next_week": 1.8
         },
@@ -387,7 +387,7 @@
     "p_max": null,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-07-22T13:09:42.296194",
+    "calculation_timestamp": "2026-07-22T15:15:17.296522",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 6,
@@ -908,6 +908,17 @@
       "description": "Warmup\n- 3km Z2 HR\n\nMain Set 4x\n- 6m Z3 HR\n- 2m Z5 HR\n- 2m Z1 HR\n\nSprints 4x\n- 45s Z6 HR\n- 85s Z1 HR\n\nCooldown\n- 2km Z2 HR"
     },
     {
+      "id": 123647983,
+      "date": "2026-07-23",
+      "name": "Base run",
+      "type": "WORKOUT",
+      "planned_tss": 57,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": null,
+      "description": "- 1h Z2 HR"
+    },
+    {
       "id": 123648064,
       "date": "2026-07-23",
       "name": "Weight WO",
@@ -919,24 +930,13 @@
       "description": "- 40m"
     },
     {
-      "id": 123647983,
-      "date": "2026-07-23",
-      "name": "Base run",
-      "type": "WORKOUT",
-      "planned_tss": 58,
-      "duration_hours": 1.0,
-      "duration_formatted": "1h",
-      "workout_summary": null,
-      "description": "- 1h Z2 HR"
-    },
-    {
       "id": 122436066,
       "date": "2026-07-25",
       "name": "Base Long Run",
       "type": "WORKOUT",
       "planned_tss": 209,
-      "duration_hours": 2.96,
-      "duration_formatted": "2h57m34s",
+      "duration_hours": 2.95,
+      "duration_formatted": "2h57m",
       "workout_summary": null,
       "description": "- 32km Z2,2 HR"
     },
@@ -945,7 +945,7 @@
       "date": "2026-07-26",
       "name": "Base run",
       "type": "WORKOUT",
-      "planned_tss": 39,
+      "planned_tss": 38,
       "duration_hours": 0.67,
       "duration_formatted": "40m",
       "workout_summary": null,
@@ -978,11 +978,11 @@
       "date": "2026-07-27",
       "name": "Base run",
       "type": "WORKOUT",
-      "planned_tss": 76,
+      "planned_tss": 83,
       "duration_hours": 1.33,
       "duration_formatted": "1h20m",
       "workout_summary": null,
-      "description": "- 1h20m Z2 HR"
+      "description": "- 30m Z2 HR\n- 30m z3 hr\n- 20m z2 hr"
     },
     {
       "id": 124536540,
@@ -1040,7 +1040,7 @@
       "description_preview": "- 34km Z2,2 HR"
     },
     {
-      "id": 124536523,
+      "id": 124570469,
       "date": "2026-08-02",
       "name": "Base run",
       "type": "WORKOUT",
@@ -1073,6 +1073,17 @@
       "description_preview": null
     },
     {
+      "id": 124571179,
+      "date": "2026-08-03",
+      "name": "Base run",
+      "type": "WORKOUT",
+      "planned_tss": 83,
+      "duration_hours": 1.33,
+      "duration_formatted": "1h20m",
+      "workout_summary": null,
+      "description_preview": "- 30m Z2 HR\n- 30m z3 hr\n- 20m z2 hr"
+    },
+    {
       "id": 122792517,
       "date": "2026-08-05",
       "name": "Int 2x 10m Z3, 5m Z4, 3m Z5 + 4x strides",
@@ -1083,15 +1094,37 @@
       "workout_summary": "11m6s | 4\u00d720s / 1m rec | 11m6s"
     },
     {
+      "id": 124564646,
+      "date": "2026-08-06",
+      "name": "Base run",
+      "type": "WORKOUT",
+      "planned_tss": 57,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": null,
+      "description_preview": "- 1h Z2 HR"
+    },
+    {
       "id": 124555237,
       "date": "2026-08-08",
       "name": "Base Long Run",
       "type": "WORKOUT",
-      "planned_tss": 42,
-      "duration_hours": 0.6,
-      "duration_formatted": "36m",
+      "planned_tss": 235,
+      "duration_hours": 3.33,
+      "duration_formatted": "3h19m45s",
       "workout_summary": null,
-      "description_preview": "- 36m Z2,2 HR"
+      "description_preview": "- 36km Z2,2 HR"
+    },
+    {
+      "id": 124571201,
+      "date": "2026-08-09",
+      "name": "Base run",
+      "type": "WORKOUT",
+      "planned_tss": 38,
+      "duration_hours": 0.67,
+      "duration_formatted": "40m",
+      "workout_summary": null,
+      "description_preview": "- 40m Z2 HR"
     },
     {
       "id": 109129821,
@@ -1116,26 +1149,15 @@
       "description_preview": null
     },
     {
-      "id": 124555276,
-      "date": "2026-08-15",
-      "name": "Base Long Run",
-      "type": "WORKOUT",
-      "planned_tss": 196,
-      "duration_hours": 2.77,
-      "duration_formatted": "2h46m28s",
-      "workout_summary": null,
-      "description_preview": "- 30km Z2,2 HR"
-    },
-    {
-      "id": 111461903,
-      "date": "2026-08-16",
-      "name": "2 day back-to-back test",
+      "id": 109130681,
+      "date": "2026-08-10",
+      "name": "FREEDOM Week",
       "type": "NOTE",
       "planned_tss": null,
       "duration_hours": 0.0,
       "duration_formatted": "0s",
       "workout_summary": null,
-      "description_preview": "Half marathon day 1\n2 hours easy day 2"
+      "description_preview": "Run if you feel like it!"
     },
     {
       "id": 109129822,
@@ -1160,15 +1182,69 @@
       "description_preview": null
     },
     {
-      "id": 109130681,
+      "id": 124571219,
       "date": "2026-08-17",
-      "name": "FREEDOM Week",
-      "type": "NOTE",
-      "planned_tss": null,
-      "duration_hours": 0.0,
-      "duration_formatted": "0s",
+      "name": "Base run",
+      "type": "WORKOUT",
+      "planned_tss": 83,
+      "duration_hours": 1.33,
+      "duration_formatted": "1h20m",
       "workout_summary": null,
-      "description_preview": "Run if you feel like it!"
+      "description_preview": "- 30m Z2 HR\n- 30m z3 hr\n- 20m z2 hr"
+    },
+    {
+      "id": 124571507,
+      "date": "2026-08-18",
+      "name": "Base run",
+      "type": "WORKOUT",
+      "planned_tss": 28,
+      "duration_hours": 0.5,
+      "duration_formatted": "30m",
+      "workout_summary": null,
+      "description_preview": "- 30m Z2 HR"
+    },
+    {
+      "id": 124559892,
+      "date": "2026-08-19",
+      "name": "Int 2x15min tempo + 4x strides trail",
+      "type": "WORKOUT",
+      "planned_tss": 72,
+      "duration_hours": 1.17,
+      "duration_formatted": "1h10m12s",
+      "workout_summary": "11m6s | 2\u00d715m / 5m rec | 4\u00d730s / 1m30s rec | 11m6s"
+    },
+    {
+      "id": 124565720,
+      "date": "2026-08-20",
+      "name": "Base run",
+      "type": "WORKOUT",
+      "planned_tss": 57,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": null,
+      "description_preview": "- 1h Z2 HR"
+    },
+    {
+      "id": 124559808,
+      "date": "2026-08-22",
+      "name": "Base Long Run",
+      "type": "WORKOUT",
+      "planned_tss": 248,
+      "duration_hours": 3.51,
+      "duration_formatted": "3h30m51s",
+      "workout_summary": null,
+      "description_preview": "- 38km Z2,2 HR"
+    },
+    {
+      "id": 124565018,
+      "date": "2026-08-23",
+      "name": "Base run",
+      "type": "WORKOUT",
+      "planned_tss": 17,
+      "duration_hours": 0.5,
+      "duration_formatted": "30m",
+      "workout_summary": null,
+      "description_preview": "- 30m Z1 hr"
     },
     {
       "id": 109129823,
@@ -1193,15 +1269,80 @@
       "description_preview": null
     },
     {
-      "id": 111070020,
+      "id": 124565024,
+      "date": "2026-08-24",
+      "name": "Base run",
+      "type": "WORKOUT",
+      "planned_tss": 81,
+      "duration_hours": 1.33,
+      "duration_formatted": "1h20m",
+      "workout_summary": null,
+      "description_preview": "- 40m Z2 HR\n- 20m z3 hr\n- 20m z2 hr"
+    },
+    {
+      "id": 124571550,
+      "date": "2026-08-25",
+      "name": "Base run",
+      "type": "WORKOUT",
+      "planned_tss": 28,
+      "duration_hours": 0.5,
+      "duration_formatted": "30m",
+      "workout_summary": null,
+      "description_preview": "- 30m Z2 HR"
+    },
+    {
+      "id": 124559895,
+      "date": "2026-08-26",
+      "name": "Int 5x3m 7/10 effort",
+      "type": "WORKOUT",
+      "planned_tss": 59,
+      "duration_hours": 0.97,
+      "duration_formatted": "58m18s",
+      "workout_summary": "16m39s | 5\u00d73m / 2m rec | 16m39s"
+    },
+    {
+      "id": 124565493,
+      "date": "2026-08-27",
+      "name": "Base run",
+      "type": "WORKOUT",
+      "planned_tss": 57,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": null,
+      "description_preview": "- 1h Z2 HR"
+    },
+    {
+      "id": 124562258,
       "date": "2026-08-29",
-      "name": "33-36km peak",
+      "name": "2 day back-to-back test",
       "type": "NOTE",
       "planned_tss": null,
       "duration_hours": 0.0,
       "duration_formatted": "0s",
       "workout_summary": null,
-      "description_preview": "According to David Roache, peak at up towards 36 km around here."
+      "description_preview": "Half marathon day 1\n2 hours easy day 2"
+    },
+    {
+      "id": 124559317,
+      "date": "2026-08-29",
+      "name": "Base Long Run",
+      "type": "WORKOUT",
+      "planned_tss": 163,
+      "duration_hours": 2.31,
+      "duration_formatted": "2h18m43s",
+      "workout_summary": null,
+      "description_preview": "- 25km Z2,2 HR"
+    },
+    {
+      "id": 124562184,
+      "date": "2026-08-30",
+      "name": "Base Long Run",
+      "type": "WORKOUT",
+      "planned_tss": 117,
+      "duration_hours": 1.66,
+      "duration_formatted": "1h39m53s",
+      "workout_summary": null,
+      "description_preview": "- 18km Z2,2 HR"
     },
     {
       "id": 109129824,
@@ -1235,15 +1376,36 @@
       "duration_formatted": "0s",
       "workout_summary": null,
       "description_preview": "Peak phase: race intensity, sharpening, taper"
+    },
+    {
+      "id": 124565894,
+      "date": "2026-08-31",
+      "name": "Base run",
+      "type": "WORKOUT",
+      "planned_tss": 57,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": null,
+      "description_preview": "- 1h Z2 HR"
+    },
+    {
+      "id": 124559902,
+      "date": "2026-09-02",
+      "name": "Int 3x8m Z3 trail",
+      "type": "WORKOUT",
+      "planned_tss": 63,
+      "duration_hours": 1.01,
+      "duration_formatted": "1h45s",
+      "workout_summary": "16m39s | 3\u00d78m / 3m rec | 11m6s"
     }
   ],
   "workout_summary_stats": {
-    "attempted": 15,
-    "success": 2,
-    "patternA": 2,
+    "attempted": 31,
+    "success": 5,
+    "patternA": 5,
     "patternB": 0,
-    "bail_no_workout_doc": 4,
-    "bail_no_match": 13
+    "bail_no_workout_doc": 3,
+    "bail_no_match": 26
   },
   "weekly_summary": {
     "total_training_hours": 7.81,
