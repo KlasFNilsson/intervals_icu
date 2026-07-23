@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-22",
-  "generated_at_utc": "2026-07-22T05:55:18.982054+00:00",
-  "message": "Readiness pekar mot att dra ner idag – ett rött signal på sömn plus ACWR som ligger lågt utanför säkert intervall gör att kroppen inte riktigt hängt med i belastningen på sistone. Det där intervallpasset med 6x2m i Z5 känns fel just nu; byt gärna ut det mot något lugnare i Z1-Z2 och se hur du känner dig imorgon istället."
+  "date": "2026-07-23",
+  "generated_at_utc": "2026-07-23T06:06:32.099831+00:00",
+  "message": "Readiness säger dra ner idag – rött på sömn och gulmarkeringar på både HRV och känsla. Dessutom sticker durability-värdet ut (6.3% decoupling, 28 dagars snitt över gränsen), vilket brukar betyda att den aeroba effektiviteten är pressad just nu. Kör dagens Base run i lugn Z2 utan att fresta på tempot, och lyssna på kroppen under styrkepasset också."
 }
