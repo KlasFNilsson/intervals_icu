@@ -15,7 +15,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-07-27T17:10:57.361777",
+    "last_updated": "2026-07-27T18:45:44.253735",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.74"
@@ -374,7 +374,7 @@
     "p_max": null,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 51.38,
-    "calculation_timestamp": "2026-07-27T17:10:57.360879",
+    "calculation_timestamp": "2026-07-27T18:45:44.252856",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -990,6 +990,17 @@
       "description": "- 40m"
     },
     {
+      "id": 124536532,
+      "date": "2026-07-28",
+      "name": "Base run",
+      "type": "WORKOUT",
+      "planned_tss": 57,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": null,
+      "description": "- 1h Z2 HR"
+    },
+    {
       "id": 122791983,
       "date": "2026-07-29",
       "name": "THLD 15m Z3, 12m Z4, 10m Z5 trail",
@@ -1010,17 +1021,6 @@
       "duration_formatted": "40m",
       "workout_summary": null,
       "description": "- 40m"
-    },
-    {
-      "id": 124536532,
-      "date": "2026-07-30",
-      "name": "Base run",
-      "type": "WORKOUT",
-      "planned_tss": 57,
-      "duration_hours": 1.0,
-      "duration_formatted": "1h",
-      "workout_summary": null,
-      "description": "- 1h Z2 HR"
     },
     {
       "id": 124536518,
