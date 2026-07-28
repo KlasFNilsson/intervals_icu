@@ -15,7 +15,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-07-28T18:55:53.645345",
+    "last_updated": "2026-07-28T20:12:17.695332",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.74"
@@ -339,7 +339,7 @@
           "planned_tss_delta": 1.15,
           "hard_sessions_planned": 0,
           "race_proximity": 53,
-          "next_week_load": 1.16,
+          "next_week_load": 1.17,
           "plan_coverage_current_week": 1.2,
           "plan_coverage_next_week": 1.4
         },
@@ -374,7 +374,7 @@
     "p_max": null,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 51.58,
-    "calculation_timestamp": "2026-07-28T18:55:53.644458",
+    "calculation_timestamp": "2026-07-28T20:12:17.694495",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -890,7 +890,7 @@
       "resting_hr": 48,
       "hrv_rmssd": 37.0,
       "hrv_sdnn": null,
-      "sleep_hours": 4.8,
+      "sleep_hours": 4.82,
       "sleep_formatted": "4h48m",
       "sleep_quality": null,
       "sleep_score": null,
@@ -1089,9 +1089,9 @@
     {
       "id": 124571179,
       "date": "2026-08-03",
-      "name": "Base run",
+      "name": "Tempo run",
       "type": "WORKOUT",
-      "planned_tss": 83,
+      "planned_tss": 86,
       "duration_hours": 1.33,
       "duration_formatted": "1h20m",
       "workout_summary": null,
@@ -1198,9 +1198,9 @@
     {
       "id": 124571219,
       "date": "2026-08-17",
-      "name": "Base run",
+      "name": "Tempo run",
       "type": "WORKOUT",
-      "planned_tss": 83,
+      "planned_tss": 86,
       "duration_hours": 1.33,
       "duration_formatted": "1h20m",
       "workout_summary": null,
@@ -1252,9 +1252,9 @@
     {
       "id": 124565018,
       "date": "2026-08-23",
-      "name": "Base run",
+      "name": "Recovery run",
       "type": "WORKOUT",
-      "planned_tss": 17,
+      "planned_tss": 18,
       "duration_hours": 0.5,
       "duration_formatted": "30m",
       "workout_summary": null,
@@ -1285,9 +1285,9 @@
     {
       "id": 124565024,
       "date": "2026-08-24",
-      "name": "Base run",
+      "name": "Tempo run",
       "type": "WORKOUT",
-      "planned_tss": 81,
+      "planned_tss": 84,
       "duration_hours": 1.33,
       "duration_formatted": "1h20m",
       "workout_summary": null,
