@@ -10,12 +10,12 @@
       "total_training_hours": 10.02,
       "total_training_formatted": "10h1m",
       "total_activities": 8,
-      "total_tss": 492
+      "total_tss": 481
     }
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-07-30T08:46:34.434008",
+    "last_updated": "2026-07-30T11:00:13.777804",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.74"
@@ -63,7 +63,7 @@
       },
       "acwr": {
         "status": "green",
-        "value": 1.1
+        "value": 1.08
       },
       "feel": {
         "status": "green",
@@ -75,7 +75,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": -13.4
+        "value": -12.9
       }
     },
     "signal_summary": {
@@ -126,7 +126,7 @@
       "Run": {
         "duration_decimal_hours": 4.31,
         "count": 2,
-        "tss": 248,
+        "tss": 237,
         "distance_km": 45.8
       },
       "TrailRun": {
@@ -145,10 +145,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 49.56,
-      "atl": 62.92,
-      "tsb": -13.36,
-      "ramp_rate": 5.19,
+      "ctl": 49.33,
+      "atl": 62.2,
+      "tsb": -12.87,
+      "ramp_rate": 4.96,
       "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
@@ -217,20 +217,20 @@
     "rhr_baseline_28d": 56.7,
     "latest_hrv": 66.9,
     "latest_rhr": null,
-    "acwr": 1.1,
+    "acwr": 1.08,
     "acwr_interpretation": "optimal",
-    "monotony": 1.05,
-    "monotony_interpretation": "normal (primary sport 0.98, total 1.05 inflated by multi-sport)",
+    "monotony": 1.08,
+    "monotony_interpretation": "normal (primary sport 1.01, total 1.08 inflated by multi-sport)",
     "primary_sport": "run",
-    "primary_sport_monotony": 0.98,
-    "primary_sport_tss_7d": 459.0,
-    "effective_monotony": 0.98,
+    "primary_sport_monotony": 1.01,
+    "primary_sport_tss_7d": 448.0,
+    "effective_monotony": 1.01,
     "multi_sport_detected": true,
-    "strain": 517.0,
-    "stress_tolerance": 4.9,
+    "strain": 519.0,
+    "stress_tolerance": 4.8,
     "load_recovery_ratio": null,
-    "tss_7d_total": 492.0,
-    "tss_28d_total": 1786.0,
+    "tss_7d_total": 481.0,
+    "tss_28d_total": 1775.0,
     "zone_distribution_7d": {
       "z1_hours": 5.29,
       "z2_hours": 1.99,
@@ -392,7 +392,7 @@
     "p_max": null,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-07-30T08:46:34.433161",
+    "calculation_timestamp": "2026-07-30T11:00:13.777000",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 6,
@@ -757,7 +757,7 @@
       "name": "Training Session",
       "duration_hours": 3.37,
       "distance_km": 35.03,
-      "tss": 193,
+      "tss": 182,
       "intensity_factor": 83.00654,
       "avg_power": 245,
       "normalized_power": 254,
@@ -1433,7 +1433,7 @@
   "weekly_summary": {
     "total_training_hours": 10.02,
     "total_training_formatted": "10h1m",
-    "total_tss": 492,
+    "total_tss": 481,
     "activities_count": 8,
     "avg_hrv": 39.1,
     "avg_resting_hr": 54.8
