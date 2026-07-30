@@ -15,7 +15,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-07-30T03:24:49.465965",
+    "last_updated": "2026-07-30T06:04:04.436920",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.74"
@@ -45,10 +45,10 @@
     "priority": 2,
     "signals": {
       "hrv": {
-        "status": "unavailable",
-        "value": null,
-        "baseline_7d": 34.4,
-        "delta_pct": null
+        "status": "green",
+        "value": 66.9,
+        "baseline_7d": 39.1,
+        "delta_pct": 71.1
       },
       "rhr": {
         "status": "unavailable",
@@ -58,7 +58,7 @@
       },
       "sleep": {
         "status": "red",
-        "hours": 4.53,
+        "hours": 4.52,
         "quality": null
       },
       "acwr": {
@@ -79,10 +79,10 @@
       }
     },
     "signal_summary": {
-      "green": 3,
+      "green": 4,
       "amber": 0,
       "red": 1,
-      "unavailable": 3
+      "unavailable": 2
     },
     "phase_context": {
       "phase": "Build",
@@ -203,19 +203,19 @@
     "current_metrics": {
       "weight_kg": 80.231,
       "resting_hr": 57,
-      "hrv": null,
+      "hrv": 66.9,
       "sleep_quality": null,
-      "sleep_hours": 4.53,
+      "sleep_hours": 4.52,
       "sleep_formatted": "4h31m"
     }
   },
   "derived_metrics": {
     "recovery_index": null,
-    "hrv_baseline_7d": 34.4,
+    "hrv_baseline_7d": 39.1,
     "rhr_baseline_7d": 54.8,
-    "hrv_baseline_28d": 32.4,
+    "hrv_baseline_28d": 33.7,
     "rhr_baseline_28d": 56.7,
-    "latest_hrv": null,
+    "latest_hrv": 66.9,
     "latest_rhr": null,
     "acwr": 1.1,
     "acwr_interpretation": "optimal",
@@ -392,9 +392,9 @@
     "p_max": null,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-07-30T03:24:49.465073",
+    "calculation_timestamp": "2026-07-30T06:04:04.436064",
     "data_quality": {
-      "hrv_data_points": 6,
+      "hrv_data_points": 7,
       "rhr_data_points": 6,
       "activities_7d": 8,
       "activities_28d": 42,
@@ -516,7 +516,7 @@
       "id": "i170044771",
       "date": "2026-07-28T14:13:01",
       "type": "WeightTraining",
-      "name": "Weight WO",
+      "name": "260706 Chest & Arms C",
       "duration_hours": 0.68,
       "distance_km": 0.0,
       "tss": 10,
@@ -905,15 +905,15 @@
       "date": "2026-07-30",
       "weight_kg": null,
       "resting_hr": null,
-      "hrv_rmssd": null,
+      "hrv_rmssd": 66.9,
       "hrv_sdnn": null,
-      "sleep_hours": 4.53,
+      "sleep_hours": 4.52,
       "sleep_formatted": "4h31m",
       "sleep_quality": null,
       "sleep_score": null,
       "mental_energy": null,
-      "fatigue": null,
-      "soreness": null,
+      "fatigue": 3,
+      "soreness": 2,
       "avg_sleeping_hr": 61.0,
       "vo2max": null
     }
@@ -1391,7 +1391,7 @@
     "total_training_formatted": "10h1m",
     "total_tss": 492,
     "activities_count": 8,
-    "avg_hrv": 34.4,
+    "avg_hrv": 39.1,
     "avg_resting_hr": 54.8
   },
   "race_calendar": {
