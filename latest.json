@@ -15,7 +15,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-07-30T00:09:33.798265",
+    "last_updated": "2026-07-30T03:24:49.465965",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.74"
@@ -41,8 +41,8 @@
     }
   ],
   "readiness_decision": {
-    "recommendation": "go",
-    "priority": 3,
+    "recommendation": "modify",
+    "priority": 2,
     "signals": {
       "hrv": {
         "status": "unavailable",
@@ -53,12 +53,12 @@
       "rhr": {
         "status": "unavailable",
         "value": null,
-        "baseline_7d": 54.7,
+        "baseline_7d": 54.8,
         "delta_bpm": null
       },
       "sleep": {
-        "status": "unavailable",
-        "hours": null,
+        "status": "red",
+        "hours": 4.53,
         "quality": null
       },
       "acwr": {
@@ -81,8 +81,8 @@
     "signal_summary": {
       "green": 3,
       "amber": 0,
-      "red": 0,
-      "unavailable": 4
+      "red": 1,
+      "unavailable": 3
     },
     "phase_context": {
       "phase": "Build",
@@ -91,8 +91,17 @@
       "modifier_applied": "build_loosened"
     },
     "race_week_defers": false,
-    "modification": null,
-    "reason": "P3 green light. 3 green, 0 amber (threshold 3), 0 red. Note: 4 signals unavailable \u2014 limited data.",
+    "modification": {
+      "triggers": [
+        "sleep"
+      ],
+      "suggested_adjustments": {
+        "intensity": "preserve",
+        "volume": "reduce",
+        "cap_zone": null
+      }
+    },
+    "reason": "P2 signal count. 1 red (sleep), 0 amber ().",
     "alarm_refs": []
   },
   "history": {
@@ -193,17 +202,17 @@
     },
     "current_metrics": {
       "weight_kg": 80.231,
-      "resting_hr": 56,
+      "resting_hr": 57,
       "hrv": null,
       "sleep_quality": null,
-      "sleep_hours": null,
-      "sleep_formatted": null
+      "sleep_hours": 4.53,
+      "sleep_formatted": "4h31m"
     }
   },
   "derived_metrics": {
     "recovery_index": null,
     "hrv_baseline_7d": 34.4,
-    "rhr_baseline_7d": 54.7,
+    "rhr_baseline_7d": 54.8,
     "hrv_baseline_28d": 32.4,
     "rhr_baseline_28d": 56.7,
     "latest_hrv": null,
@@ -383,7 +392,7 @@
     "p_max": null,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-07-30T00:09:33.797479",
+    "calculation_timestamp": "2026-07-30T03:24:49.465073",
     "data_quality": {
       "hrv_data_points": 6,
       "rhr_data_points": 6,
@@ -879,7 +888,7 @@
     {
       "date": "2026-07-29",
       "weight_kg": 80.231,
-      "resting_hr": 56,
+      "resting_hr": 57,
       "hrv_rmssd": 18.0,
       "hrv_sdnn": null,
       "sleep_hours": 6.72,
@@ -898,14 +907,14 @@
       "resting_hr": null,
       "hrv_rmssd": null,
       "hrv_sdnn": null,
-      "sleep_hours": null,
-      "sleep_formatted": null,
+      "sleep_hours": 4.53,
+      "sleep_formatted": "4h31m",
       "sleep_quality": null,
       "sleep_score": null,
       "mental_energy": null,
       "fatigue": null,
       "soreness": null,
-      "avg_sleeping_hr": null,
+      "avg_sleeping_hr": 61.0,
       "vo2max": null
     }
   ],
@@ -1052,6 +1061,17 @@
       "duration_formatted": "0s",
       "workout_summary": null,
       "description_preview": "Run if you feel like it!"
+    },
+    {
+      "id": 126095767,
+      "date": "2026-08-15",
+      "name": "Testrun race VUM part 1",
+      "type": "WORKOUT",
+      "planned_tss": 122,
+      "duration_hours": 2.13,
+      "duration_formatted": "2h7m37s",
+      "workout_summary": null,
+      "description_preview": "- 23km z2 hr"
     },
     {
       "id": 109129822,
@@ -1306,13 +1326,13 @@
     {
       "id": 124555276,
       "date": "2026-09-05",
-      "name": "Base Long Run",
+      "name": "Test run race VUM part 2",
       "type": "WORKOUT",
-      "planned_tss": 134,
-      "duration_hours": 2.4,
-      "duration_formatted": "2h24m16s",
+      "planned_tss": 143,
+      "duration_hours": 2.5,
+      "duration_formatted": "2h29m49s",
       "workout_summary": null,
-      "description_preview": "- 26km Z2 HR"
+      "description_preview": "- 27km Z2 HR"
     },
     {
       "id": 109129825,
@@ -1359,12 +1379,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 26,
+    "attempted": 27,
     "success": 5,
     "patternA": 5,
     "patternB": 0,
     "bail_no_workout_doc": 3,
-    "bail_no_match": 21
+    "bail_no_match": 22
   },
   "weekly_summary": {
     "total_training_hours": 10.02,
@@ -1372,7 +1392,7 @@
     "total_tss": 492,
     "activities_count": 8,
     "avg_hrv": 34.4,
-    "avg_resting_hr": 54.7
+    "avg_resting_hr": 54.8
   },
   "race_calendar": {
     "next_race": {
