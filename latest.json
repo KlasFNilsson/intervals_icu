@@ -15,7 +15,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-07-30T12:48:16.091052",
+    "last_updated": "2026-07-30T15:05:11.030394",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.74"
@@ -393,7 +393,7 @@
     "p_max": null,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-07-30T12:48:16.090197",
+    "calculation_timestamp": "2026-07-30T15:05:11.029637",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 6,
@@ -411,7 +411,7 @@
       "id": "i170749354",
       "date": "2026-07-30T13:05:13",
       "type": "WeightTraining",
-      "name": "Weight WO",
+      "name": "260706 Run strength B",
       "duration_hours": 0.76,
       "distance_km": 0.0,
       "tss": 9,
