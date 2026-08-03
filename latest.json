@@ -15,7 +15,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-08-03T01:05:34.483654",
+    "last_updated": "2026-08-03T04:45:03.227320",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.74"
@@ -375,7 +375,7 @@
     "p_max": null,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-08-03T01:05:34.482824",
+    "calculation_timestamp": "2026-08-03T04:45:03.226393",
     "data_quality": {
       "hrv_data_points": 6,
       "rhr_data_points": 6,
@@ -1144,6 +1144,17 @@
       "duration_formatted": "40m",
       "workout_summary": null,
       "description_preview": "- 40m Z2 HR"
+    },
+    {
+      "id": 126896143,
+      "date": "2026-09-04",
+      "name": "Amsterdam",
+      "type": "HOLIDAY",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "description_preview": null
     },
     {
       "id": 124555276,
