@@ -15,7 +15,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-08-04T07:38:39.666450",
+    "last_updated": "2026-08-04T10:17:32.346637",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.74"
@@ -75,7 +75,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": -8.4
+        "value": 0.5
       }
     },
     "signal_summary": {
@@ -140,10 +140,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 50.26,
-      "atl": 58.62,
-      "tsb": -8.36,
-      "ramp_rate": 1.88,
+      "ctl": 48.06,
+      "atl": 47.54,
+      "tsb": 0.52,
+      "ramp_rate": -0.32,
       "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
@@ -320,17 +320,16 @@
         "note": "Compares 7d vs 28d Seiler TID to detect distribution shifts. pi_delta positive = more polarized acutely."
       }
     },
-    "consistency_index": 0.17,
+    "consistency_index": 0.0,
     "consistency_details": {
-      "planned_days": 6,
+      "planned_days": 5,
       "completed_days": 1,
-      "matched_days": 1,
+      "matched_days": 0,
       "planned_dates": [
         "2026-07-29",
         "2026-07-30",
         "2026-08-01",
         "2026-08-02",
-        "2026-08-03",
         "2026-08-04"
       ],
       "completed_dates": [
@@ -339,7 +338,7 @@
     },
     "phase_detection": {
       "phase": "Build",
-      "confidence": "medium",
+      "confidence": "high",
       "reason_codes": [],
       "basis": {
         "stream_1": {
@@ -349,11 +348,11 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 1.16,
-          "hard_sessions_planned": 1,
+          "planned_tss_delta": 1.45,
+          "hard_sessions_planned": 2,
           "race_proximity": 46,
           "next_week_load": 0.32,
-          "plan_coverage_current_week": 1.2,
+          "plan_coverage_current_week": 1.4,
           "plan_coverage_next_week": 0.8
         },
         "data_quality": "good",
@@ -387,7 +386,7 @@
     "p_max": null,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-08-04T07:38:39.665893",
+    "calculation_timestamp": "2026-08-04T10:17:32.345865",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -723,19 +722,19 @@
       "description": "- 40m"
     },
     {
-      "id": 122792517,
-      "date": "2026-08-05",
-      "name": "Int 2x 10m Z3, 5m Z4, 3m Z5 + 4x strides",
+      "id": 124571179,
+      "date": "2026-08-04",
+      "name": "Tempo run",
       "type": "WORKOUT",
-      "planned_tss": 80,
-      "duration_hours": 1.16,
-      "duration_formatted": "1h9m32s",
-      "workout_summary": "11m6s | 4\u00d720s / 1m rec | 11m6s",
-      "description": "Warmup\n- 2km Z2 HR\n\nMain Set 2x\n- 10m Z3 HR\n- 5m Z4 HR\n- 3m Z5 HR\n- 3m Z2 HR\n\nOptional Strides 4x\n- 20s Z3 HR\n- 60s Z1 HR\n\nCooldown\n- 2km Z2 HR"
+      "planned_tss": 96,
+      "duration_hours": 1.5,
+      "duration_formatted": "1h30m",
+      "workout_summary": null,
+      "description": "- 30m Z2 HR\n- 40m z3 hr\n- 20m z2 hr"
     },
     {
       "id": 124564646,
-      "date": "2026-08-06",
+      "date": "2026-08-05",
       "name": "Base run",
       "type": "WORKOUT",
       "planned_tss": 57,
@@ -743,6 +742,17 @@
       "duration_formatted": "1h",
       "workout_summary": null,
       "description": "- 1h Z2 HR"
+    },
+    {
+      "id": 122792517,
+      "date": "2026-08-06",
+      "name": "Int 2x 10m Z3, 5m Z4, 3m Z5 + 4x strides",
+      "type": "WORKOUT",
+      "planned_tss": 80,
+      "duration_hours": 1.16,
+      "duration_formatted": "1h9m32s",
+      "workout_summary": "11m6s | 4\u00d720s / 1m rec | 11m6s",
+      "description": "Warmup\n- 2km Z2 HR\n\nMain Set 2x\n- 10m Z3 HR\n- 5m Z4 HR\n- 3m Z5 HR\n- 3m Z2 HR\n\nOptional Strides 4x\n- 20s Z3 HR\n- 60s Z1 HR\n\nCooldown\n- 2km Z2 HR"
     },
     {
       "id": 126113825,
@@ -1170,12 +1180,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 27,
+    "attempted": 28,
     "success": 6,
     "patternA": 6,
     "patternB": 0,
     "bail_no_workout_doc": 3,
-    "bail_no_match": 21
+    "bail_no_match": 22
   },
   "weekly_summary": {
     "total_training_hours": 6.67,
