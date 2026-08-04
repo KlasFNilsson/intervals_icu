@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-03",
-  "generated_at_utc": "2026-08-03T06:29:28.636501+00:00",
-  "message": "Durability-larmet på 7,56% står kvar, och det ihop med HRV som ligger klart under baseline (-17,6%) senaste dagarna gör att kroppen signalerar mer belastning än den hunnit smälta. Readiness säger ändå grön väg idag, så tempopasset kan köras – men var strikt med Z2-delarna och låt bara mittpartiet i Z3 bära ansträngningen, pressa inte på för hårt utöver planen."
+  "date": "2026-08-04",
+  "generated_at_utc": "2026-08-04T05:53:53.816662+00:00",
+  "message": "Readiness pekar på modify idag – ACWR ligger på 0,66, alltså utanför säkra intervallet, och det ihop med durability-larmet gör att kroppen behöver mer marginal än pressning just nu. Håll dagens styrkepass kort och kontrollerat, 40 minuter räcker gott, och skippa allt som frestar på extra."
 }
