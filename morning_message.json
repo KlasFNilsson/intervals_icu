@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-07",
-  "generated_at_utc": "2026-08-07T04:58:55.234382+00:00",
-  "message": "ACWR ligger fortsatt lågt på 0,51 och durability-larmet på 7,56% kvarstår – readiness säger ändå \"go\" idag. Med bara två pass genomförda denna vecka och gott om marginal i belastningen finns utrymme att bygga på lite försiktigt. Dagens styrkepass på 40 minuter passar bra in här – kör det, men håll ett öga på hur kroppen svarar innan nästa hårdare distanspass."
+  "date": "2026-08-08",
+  "generated_at_utc": "2026-08-08T04:14:28.997662+00:00",
+  "message": "Durability-larmet biter sig kvar på 8,59% (28-dagarssnitt), och ACWR har nu sjunkit ännu lägre till 0,16 – readiness ger grönt ljus men marginalerna i belastningen är stora just nu. Med bara 1h55m träning denna vecka och 36 km Z2 på schemat idag: bygg volymen gradvis, decoupling-siffran är värd att hålla koll på innan du trappar upp intensiteten."
 }
