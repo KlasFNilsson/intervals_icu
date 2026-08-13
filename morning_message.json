@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-12",
-  "generated_at_utc": "2026-08-12T04:52:15.834561+00:00",
-  "message": "Kroppen verkar hantera belastningen okej, men datan skickar en tydlig varningssignal idag: ACWR ligger på 0,47 och decouplingen har legat förhöjd (8,49% över 28 dagar), vilket tillsammans pekar på att den akuta belastningen är ovanligt låg jämfört med den kroniska – ett tecken på att kroppen fortfarande jobbar med att smälta de tuffa trailpassen. Ingen anledning till panik, men lägg inte på mer volym eller intensitet än planerat idag utan låt återhämtningen ta sin tid."
+  "date": "2026-08-13",
+  "generated_at_utc": "2026-08-13T04:56:32.059974+00:00",
+  "message": "Trots gårdagens alarm på ACWR och decoupling är readiness grön idag – tre gröna, bara två gula, ingen röd. De 19,55 km i kuperad terräng för tre dagar sedan har alltså inte satt några synliga spår i formulären, vilket är ett gott tecken. Kör dagens intervaller som planerat, men håll ett öga på hur benen känns i Z5-delarna – låg akut belastning betyder inte att kroppen är fullt återställd."
 }
