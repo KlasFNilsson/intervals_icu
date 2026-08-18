@@ -15,7 +15,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-08-17T23:58:48.338622",
+    "last_updated": "2026-08-18T01:20:40.075071",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.74"
@@ -54,20 +54,20 @@
     "priority": 3,
     "signals": {
       "hrv": {
-        "status": "green",
-        "value": 48.0,
-        "baseline_7d": 30.9,
-        "delta_pct": 55.3
+        "status": "unavailable",
+        "value": null,
+        "baseline_7d": 30.7,
+        "delta_pct": null
       },
       "rhr": {
         "status": "unavailable",
         "value": null,
-        "baseline_7d": 57.8,
+        "baseline_7d": 58.6,
         "delta_bpm": null
       },
       "sleep": {
-        "status": "amber",
-        "hours": 6.93,
+        "status": "unavailable",
+        "hours": null,
         "quality": null
       },
       "acwr": {
@@ -84,14 +84,14 @@
       },
       "tsb": {
         "status": "green",
-        "value": 14.2
+        "value": 16.8
       }
     },
     "signal_summary": {
-      "green": 3,
-      "amber": 2,
+      "green": 2,
+      "amber": 1,
       "red": 0,
-      "unavailable": 2
+      "unavailable": 4
     },
     "phase_context": {
       "phase": "Build",
@@ -101,13 +101,13 @@
     },
     "race_week_defers": false,
     "modification": null,
-    "reason": "P3 green light. 3 green, 2 amber (threshold 3), 0 red.",
+    "reason": "P3 green light. 2 green, 1 amber (threshold 3), 0 red. Note: 4 signals unavailable \u2014 limited data.",
     "alarm_refs": []
   },
   "history": {
     "available": true,
     "last_generated": "2026-07-19",
-    "age_days": 29,
+    "age_days": 30,
     "total_months": 35,
     "history_confidence": "high"
   },
@@ -145,10 +145,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 41.03,
-      "atl": 26.86,
-      "tsb": 14.17,
-      "ramp_rate": -1.57,
+      "ctl": 40.06,
+      "atl": 23.29,
+      "tsb": 16.77,
+      "ramp_rate": -3.92,
       "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
@@ -203,19 +203,19 @@
     "current_metrics": {
       "weight_kg": 80.132,
       "resting_hr": 63,
-      "hrv": 48.0,
+      "hrv": null,
       "sleep_quality": null,
-      "sleep_hours": 6.93,
-      "sleep_formatted": "6h55m"
+      "sleep_hours": null,
+      "sleep_formatted": null
     }
   },
   "derived_metrics": {
     "recovery_index": null,
-    "hrv_baseline_7d": 30.9,
-    "rhr_baseline_7d": 57.8,
-    "hrv_baseline_28d": 33.5,
-    "rhr_baseline_28d": 55.0,
-    "latest_hrv": 48.0,
+    "hrv_baseline_7d": 30.7,
+    "rhr_baseline_7d": 58.6,
+    "hrv_baseline_28d": 33.3,
+    "rhr_baseline_28d": 54.8,
+    "latest_hrv": null,
     "latest_rhr": null,
     "acwr": 0.48,
     "acwr_interpretation": "undertraining",
@@ -230,7 +230,7 @@
     "stress_tolerance": 1.4,
     "load_recovery_ratio": null,
     "tss_7d_total": 137.0,
-    "tss_28d_total": 1138.0,
+    "tss_28d_total": 1130.0,
     "zone_distribution_7d": {
       "z1_hours": 3.23,
       "z2_hours": 0.45,
@@ -268,12 +268,12 @@
       "sport": "run"
     },
     "seiler_tid_28d": {
-      "z1_seconds": 73283,
+      "z1_seconds": 71165,
       "z2_seconds": 8463,
       "z3_seconds": 11922,
-      "z1_pct": 78.2,
-      "z2_pct": 9.0,
-      "z3_pct": 12.7,
+      "z1_pct": 77.7,
+      "z2_pct": 9.2,
+      "z3_pct": 13.0,
       "polarization_index": 2.04,
       "classification": "Polarized"
     },
@@ -331,10 +331,10 @@
       "completed_days": 1,
       "matched_days": 1,
       "planned_dates": [
-        "2026-08-11",
         "2026-08-13",
         "2026-08-15",
-        "2026-08-17"
+        "2026-08-17",
+        "2026-08-18"
       ],
       "completed_dates": [
         "2026-08-15"
@@ -342,7 +342,7 @@
     },
     "phase_detection": {
       "phase": "Build",
-      "confidence": "high",
+      "confidence": "medium",
       "reason_codes": [],
       "basis": {
         "stream_1": {
@@ -352,11 +352,11 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 1.19,
-          "hard_sessions_planned": 2,
-          "race_proximity": 33,
+          "planned_tss_delta": 1.13,
+          "hard_sessions_planned": 1,
+          "race_proximity": 32,
           "next_week_load": 1.24,
-          "plan_coverage_current_week": 1.6,
+          "plan_coverage_current_week": 1.0,
           "plan_coverage_next_week": 1.8
         },
         "data_quality": "good",
@@ -390,12 +390,12 @@
     "p_max": null,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-08-17T23:58:48.337979",
+    "calculation_timestamp": "2026-08-18T01:20:40.074190",
     "data_quality": {
-      "hrv_data_points": 7,
-      "rhr_data_points": 6,
+      "hrv_data_points": 6,
+      "rhr_data_points": 5,
       "activities_7d": 8,
-      "activities_28d": 25,
+      "activities_28d": 24,
       "planned_workouts_7d": 6,
       "ftp_history_days": {
         "indoor": 0,
@@ -768,22 +768,6 @@
   ],
   "wellness_data": [
     {
-      "date": "2026-08-11",
-      "weight_kg": 79.37601,
-      "resting_hr": 54,
-      "hrv_rmssd": 32.0,
-      "hrv_sdnn": null,
-      "sleep_hours": 7.04,
-      "sleep_formatted": "7h2m",
-      "sleep_quality": null,
-      "sleep_score": null,
-      "mental_energy": null,
-      "fatigue": 3,
-      "soreness": 3,
-      "avg_sleeping_hr": 61.0,
-      "vo2max": 52.56
-    },
-    {
       "date": "2026-08-12",
       "weight_kg": 80.594,
       "resting_hr": 57,
@@ -878,42 +862,25 @@
       "soreness": null,
       "avg_sleeping_hr": 58.0,
       "vo2max": null
+    },
+    {
+      "date": "2026-08-18",
+      "weight_kg": null,
+      "resting_hr": null,
+      "hrv_rmssd": null,
+      "hrv_sdnn": null,
+      "sleep_hours": null,
+      "sleep_formatted": null,
+      "sleep_quality": null,
+      "sleep_score": null,
+      "mental_energy": null,
+      "fatigue": null,
+      "soreness": null,
+      "avg_sleeping_hr": null,
+      "vo2max": null
     }
   ],
   "planned_workouts": [
-    {
-      "id": 109129822,
-      "date": "2026-08-17",
-      "name": "Weekly",
-      "type": "TARGET",
-      "planned_tss": null,
-      "duration_hours": 0.0,
-      "duration_formatted": "0s",
-      "workout_summary": null,
-      "description": ""
-    },
-    {
-      "id": 109129842,
-      "date": "2026-08-17",
-      "name": "Weekly",
-      "type": "TARGET",
-      "planned_tss": null,
-      "duration_hours": 0.0,
-      "duration_formatted": "0s",
-      "workout_summary": null,
-      "description": ""
-    },
-    {
-      "id": 124571219,
-      "date": "2026-08-17",
-      "name": "Tempo run",
-      "type": "WORKOUT",
-      "planned_tss": 86,
-      "duration_hours": 1.33,
-      "duration_formatted": "1h20m",
-      "workout_summary": null,
-      "description": "- 30m Z2 HR\n- 30m z3 hr\n- 20m z2 hr"
-    },
     {
       "id": 124571507,
       "date": "2026-08-18",
@@ -1011,7 +978,7 @@
       "duration_hours": 0.5,
       "duration_formatted": "30m",
       "workout_summary": null,
-      "description_preview": "- 30m Z2 HR"
+      "description": "- 30m Z2 HR"
     },
     {
       "id": 124559895,
@@ -1253,20 +1220,20 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 20,
+    "attempted": 19,
     "success": 5,
     "patternA": 5,
     "patternB": 0,
     "bail_no_workout_doc": 3,
-    "bail_no_match": 15
+    "bail_no_match": 14
   },
   "weekly_summary": {
     "total_training_hours": 4.17,
     "total_training_formatted": "4h10m",
     "total_tss": 137,
     "activities_count": 8,
-    "avg_hrv": 30.9,
-    "avg_resting_hr": 57.8
+    "avg_hrv": 30.7,
+    "avg_resting_hr": 58.6
   },
   "race_calendar": {
     "next_race": {
@@ -1274,7 +1241,7 @@
       "date": "2026-09-19",
       "category": "RACE_A",
       "type": "TrailRun",
-      "days_until": 33,
+      "days_until": 32,
       "moving_time_seconds": 21600,
       "distance_meters": 50000.0
     },
@@ -1284,7 +1251,7 @@
         "date": "2026-09-19",
         "category": "RACE_A",
         "type": "TrailRun",
-        "days_until": 33,
+        "days_until": 32,
         "moving_time_seconds": 21600,
         "distance_meters": 50000.0
       }
