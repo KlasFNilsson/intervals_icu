@@ -15,7 +15,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-08-18T08:00:43.429789",
+    "last_updated": "2026-08-18T08:51:23.383661",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.74"
@@ -390,7 +390,7 @@
     "p_max": null,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-08-18T08:00:43.429009",
+    "calculation_timestamp": "2026-08-18T08:51:23.382860",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 6,
@@ -408,7 +408,7 @@
       "id": "i177046740",
       "date": "2026-08-18T08:09:53",
       "type": "WeightTraining",
-      "name": "Strength Training",
+      "name": "260817 A",
       "duration_hours": 0.9,
       "distance_km": 0.0,
       "tss": 8,
