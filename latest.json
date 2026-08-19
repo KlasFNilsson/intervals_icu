@@ -15,7 +15,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-08-19T08:52:18.069510",
+    "last_updated": "2026-08-19T09:25:30.243915",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.74"
@@ -382,7 +382,7 @@
     "p_max": null,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-08-19T08:52:18.068668",
+    "calculation_timestamp": "2026-08-19T09:25:30.243032",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 6,
@@ -935,7 +935,7 @@
       "duration_hours": 0.13,
       "duration_formatted": "8m",
       "workout_summary": null,
-      "description": "Med foamroller (g\u00f6rs f\u00f6re stretchen, ~4-5 min):\n\nFramsida l\u00e5r (quadriceps) \u2014 rulla l\u00e5ngsamt, 45s per ben, pausa 10s p\u00e5 \u00f6mma punkter\nUtsida l\u00e5r/IT-band \u2014 45s per sida, l\u00e5ngsamt, samma princip\nS\u00e4te/glute \u2014 30s per sida\n\nStatisk stretch efter\u00e5t (~3 min):\n\nSt\u00e5ende quadstretch (dra h\u00e4len mot s\u00e4tet) \u2014 30s x2 per ben\nH\u00f6ftb\u00f6jarstretch (kn\u00e4st\u00e5ende utfallsposition) \u2014 30s x2 per ben\nTFL/IT-band-stretch (st\u00e5 med det \u00f6mma benet bakom det andra, luta h\u00f6ften \u00e5t sidan) \u2014 30s per sida\n\nG\u00f6r det p\u00e5 vilodagar och efter lugna pass, inte direkt f\u00f6re h\u00e5rd l\u00f6pning. Vill du att jag l\u00e4gger in det som en \u00e5terkommande sak att checka av, eller r\u00e4cker det att ha det h\u00e4r att g\u00e5 tillbaka till?"
+      "description": "Knee-friendly mobility routine (~7 min total) \u2014 swapped out kneeling positions due to left anterior knee pain (likely PFPS) since 2026-08-01 long run; avoiding deep knee flexion under load until it's settled.\nRest days or after easy runs, not after hard runs.\n\nFoam rolling (~4 min):\n\nQuads (front of thigh) \u2014 45s per leg\nIT band (outer thigh) \u2014 45s per side\nGlutes \u2014 30s per side\n\nStatic stretching (~3 min):\n\nStanding quad stretch (pull heel toward glutes) \u2014 30s per leg\nStanding hip flexor stretch (big lunge step, no knee on ground, tuck pelvis under) \u2014 30s per leg\nSeated figure-4 (ankle on opposite knee, lean forward) \u2014 30s per side\n\nDropped a separate standing IT-band stretch \u2014 the foam rolling and figure-4 cover that ground without adding time."
     },
     {
       "id": 124559892,
@@ -949,7 +949,7 @@
       "description": "Warmup\n- 2km Z2 HR\n\nMain Set 2x\n- 15m Z3 HR tempo\n- 5m Z2 HR\n\nStrides 4x\n- 30s Z3 HR\n- 90s Z1 HR\n\nCooldown\n- 2km Z2 HR"
     },
     {
-      "id": 130232006,
+      "id": 130247016,
       "date": "2026-08-20",
       "name": "Stretch",
       "type": "WORKOUT",
@@ -957,7 +957,7 @@
       "duration_hours": 0.13,
       "duration_formatted": "8m",
       "workout_summary": null,
-      "description": "Med foamroller (g\u00f6rs f\u00f6re stretchen, ~4-5 min):\n\nFramsida l\u00e5r (quadriceps) \u2014 rulla l\u00e5ngsamt, 45s per ben, pausa 10s p\u00e5 \u00f6mma punkter\nUtsida l\u00e5r/IT-band \u2014 45s per sida, l\u00e5ngsamt, samma princip\nS\u00e4te/glute \u2014 30s per sida\n\nStatisk stretch efter\u00e5t (~3 min):\n\nSt\u00e5ende quadstretch (dra h\u00e4len mot s\u00e4tet) \u2014 30s x2 per ben\nH\u00f6ftb\u00f6jarstretch (kn\u00e4st\u00e5ende utfallsposition) \u2014 30s x2 per ben\nTFL/IT-band-stretch (st\u00e5 med det \u00f6mma benet bakom det andra, luta h\u00f6ften \u00e5t sidan) \u2014 30s per sida\n\nG\u00f6r det p\u00e5 vilodagar och efter lugna pass, inte direkt f\u00f6re h\u00e5rd l\u00f6pning. Vill du att jag l\u00e4gger in det som en \u00e5terkommande sak att checka av, eller r\u00e4cker det att ha det h\u00e4r att g\u00e5 tillbaka till?"
+      "description": "Knee-friendly mobility routine (~7 min total) \u2014 swapped out kneeling positions due to left anterior knee pain (likely PFPS) since 2026-08-01 long run; avoiding deep knee flexion under load until it's settled.\nRest days or after easy runs, not after hard runs.\n\nFoam rolling (~4 min):\n\nQuads (front of thigh) \u2014 45s per leg\nIT band (outer thigh) \u2014 45s per side\nGlutes \u2014 30s per side\n\nStatic stretching (~3 min):\n\nStanding quad stretch (pull heel toward glutes) \u2014 30s per leg\nStanding hip flexor stretch (big lunge step, no knee on ground, tuck pelvis under) \u2014 30s per leg\nSeated figure-4 (ankle on opposite knee, lean forward) \u2014 30s per side\n\nDropped a separate standing IT-band stretch \u2014 the foam rolling and figure-4 cover that ground without adding time."
     },
     {
       "id": 124565720,
@@ -971,7 +971,7 @@
       "description": "- 1h Z2 HR"
     },
     {
-      "id": 130232008,
+      "id": 130247018,
       "date": "2026-08-21",
       "name": "Stretch",
       "type": "WORKOUT",
@@ -979,10 +979,10 @@
       "duration_hours": 0.13,
       "duration_formatted": "8m",
       "workout_summary": null,
-      "description": "Med foamroller (g\u00f6rs f\u00f6re stretchen, ~4-5 min):\n\nFramsida l\u00e5r (quadriceps) \u2014 rulla l\u00e5ngsamt, 45s per ben, pausa 10s p\u00e5 \u00f6mma punkter\nUtsida l\u00e5r/IT-band \u2014 45s per sida, l\u00e5ngsamt, samma princip\nS\u00e4te/glute \u2014 30s per sida\n\nStatisk stretch efter\u00e5t (~3 min):\n\nSt\u00e5ende quadstretch (dra h\u00e4len mot s\u00e4tet) \u2014 30s x2 per ben\nH\u00f6ftb\u00f6jarstretch (kn\u00e4st\u00e5ende utfallsposition) \u2014 30s x2 per ben\nTFL/IT-band-stretch (st\u00e5 med det \u00f6mma benet bakom det andra, luta h\u00f6ften \u00e5t sidan) \u2014 30s per sida\n\nG\u00f6r det p\u00e5 vilodagar och efter lugna pass, inte direkt f\u00f6re h\u00e5rd l\u00f6pning. Vill du att jag l\u00e4gger in det som en \u00e5terkommande sak att checka av, eller r\u00e4cker det att ha det h\u00e4r att g\u00e5 tillbaka till?"
+      "description": "Knee-friendly mobility routine (~7 min total) \u2014 swapped out kneeling positions due to left anterior knee pain (likely PFPS) since 2026-08-01 long run; avoiding deep knee flexion under load until it's settled.\nRest days or after easy runs, not after hard runs.\n\nFoam rolling (~4 min):\n\nQuads (front of thigh) \u2014 45s per leg\nIT band (outer thigh) \u2014 45s per side\nGlutes \u2014 30s per side\n\nStatic stretching (~3 min):\n\nStanding quad stretch (pull heel toward glutes) \u2014 30s per leg\nStanding hip flexor stretch (big lunge step, no knee on ground, tuck pelvis under) \u2014 30s per leg\nSeated figure-4 (ankle on opposite knee, lean forward) \u2014 30s per side\n\nDropped a separate standing IT-band stretch \u2014 the foam rolling and figure-4 cover that ground without adding time."
     },
     {
-      "id": 130232010,
+      "id": 130247019,
       "date": "2026-08-22",
       "name": "Stretch",
       "type": "WORKOUT",
@@ -990,7 +990,7 @@
       "duration_hours": 0.13,
       "duration_formatted": "8m",
       "workout_summary": null,
-      "description": "Med foamroller (g\u00f6rs f\u00f6re stretchen, ~4-5 min):\n\nFramsida l\u00e5r (quadriceps) \u2014 rulla l\u00e5ngsamt, 45s per ben, pausa 10s p\u00e5 \u00f6mma punkter\nUtsida l\u00e5r/IT-band \u2014 45s per sida, l\u00e5ngsamt, samma princip\nS\u00e4te/glute \u2014 30s per sida\n\nStatisk stretch efter\u00e5t (~3 min):\n\nSt\u00e5ende quadstretch (dra h\u00e4len mot s\u00e4tet) \u2014 30s x2 per ben\nH\u00f6ftb\u00f6jarstretch (kn\u00e4st\u00e5ende utfallsposition) \u2014 30s x2 per ben\nTFL/IT-band-stretch (st\u00e5 med det \u00f6mma benet bakom det andra, luta h\u00f6ften \u00e5t sidan) \u2014 30s per sida\n\nG\u00f6r det p\u00e5 vilodagar och efter lugna pass, inte direkt f\u00f6re h\u00e5rd l\u00f6pning. Vill du att jag l\u00e4gger in det som en \u00e5terkommande sak att checka av, eller r\u00e4cker det att ha det h\u00e4r att g\u00e5 tillbaka till?"
+      "description": "Knee-friendly mobility routine (~7 min total) \u2014 swapped out kneeling positions due to left anterior knee pain (likely PFPS) since 2026-08-01 long run; avoiding deep knee flexion under load until it's settled.\nRest days or after easy runs, not after hard runs.\n\nFoam rolling (~4 min):\n\nQuads (front of thigh) \u2014 45s per leg\nIT band (outer thigh) \u2014 45s per side\nGlutes \u2014 30s per side\n\nStatic stretching (~3 min):\n\nStanding quad stretch (pull heel toward glutes) \u2014 30s per leg\nStanding hip flexor stretch (big lunge step, no knee on ground, tuck pelvis under) \u2014 30s per leg\nSeated figure-4 (ankle on opposite knee, lean forward) \u2014 30s per side\n\nDropped a separate standing IT-band stretch \u2014 the foam rolling and figure-4 cover that ground without adding time."
     },
     {
       "id": 124559808,
@@ -1004,7 +1004,7 @@
       "description": "- 38km Z2 HR"
     },
     {
-      "id": 130232011,
+      "id": 130247021,
       "date": "2026-08-23",
       "name": "Stretch",
       "type": "WORKOUT",
@@ -1012,7 +1012,7 @@
       "duration_hours": 0.13,
       "duration_formatted": "8m",
       "workout_summary": null,
-      "description": "Med foamroller (g\u00f6rs f\u00f6re stretchen, ~4-5 min):\n\nFramsida l\u00e5r (quadriceps) \u2014 rulla l\u00e5ngsamt, 45s per ben, pausa 10s p\u00e5 \u00f6mma punkter\nUtsida l\u00e5r/IT-band \u2014 45s per sida, l\u00e5ngsamt, samma princip\nS\u00e4te/glute \u2014 30s per sida\n\nStatisk stretch efter\u00e5t (~3 min):\n\nSt\u00e5ende quadstretch (dra h\u00e4len mot s\u00e4tet) \u2014 30s x2 per ben\nH\u00f6ftb\u00f6jarstretch (kn\u00e4st\u00e5ende utfallsposition) \u2014 30s x2 per ben\nTFL/IT-band-stretch (st\u00e5 med det \u00f6mma benet bakom det andra, luta h\u00f6ften \u00e5t sidan) \u2014 30s per sida\n\nG\u00f6r det p\u00e5 vilodagar och efter lugna pass, inte direkt f\u00f6re h\u00e5rd l\u00f6pning. Vill du att jag l\u00e4gger in det som en \u00e5terkommande sak att checka av, eller r\u00e4cker det att ha det h\u00e4r att g\u00e5 tillbaka till?"
+      "description": "Knee-friendly mobility routine (~7 min total) \u2014 swapped out kneeling positions due to left anterior knee pain (likely PFPS) since 2026-08-01 long run; avoiding deep knee flexion under load until it's settled.\nRest days or after easy runs, not after hard runs.\n\nFoam rolling (~4 min):\n\nQuads (front of thigh) \u2014 45s per leg\nIT band (outer thigh) \u2014 45s per side\nGlutes \u2014 30s per side\n\nStatic stretching (~3 min):\n\nStanding quad stretch (pull heel toward glutes) \u2014 30s per leg\nStanding hip flexor stretch (big lunge step, no knee on ground, tuck pelvis under) \u2014 30s per leg\nSeated figure-4 (ankle on opposite knee, lean forward) \u2014 30s per side\n\nDropped a separate standing IT-band stretch \u2014 the foam rolling and figure-4 cover that ground without adding time."
     },
     {
       "id": 124565018,
