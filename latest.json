@@ -15,7 +15,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-08-19T07:23:39.812364",
+    "last_updated": "2026-08-19T08:00:54.529350",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.74"
@@ -348,7 +348,7 @@
           "hard_sessions_planned": 1,
           "race_proximity": 31,
           "next_week_load": 1.24,
-          "plan_coverage_current_week": 0.8,
+          "plan_coverage_current_week": 1.8,
           "plan_coverage_next_week": 1.8
         },
         "data_quality": "good",
@@ -382,13 +382,13 @@
     "p_max": null,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-08-19T07:23:39.811547",
+    "calculation_timestamp": "2026-08-19T08:00:54.528758",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 6,
       "activities_7d": 9,
       "activities_28d": 25,
-      "planned_workouts_7d": 7,
+      "planned_workouts_7d": 8,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 0
@@ -927,6 +927,17 @@
   ],
   "planned_workouts": [
     {
+      "id": 130231979,
+      "date": "2026-08-19",
+      "name": "Stretch",
+      "type": "WORKOUT",
+      "planned_tss": null,
+      "duration_hours": 0.13,
+      "duration_formatted": "8m",
+      "workout_summary": null,
+      "description": "Med foamroller (g\u00f6rs f\u00f6re stretchen, ~4-5 min):\n\nFramsida l\u00e5r (quadriceps) \u2014 rulla l\u00e5ngsamt, 45s per ben, pausa 10s p\u00e5 \u00f6mma punkter\nUtsida l\u00e5r/IT-band \u2014 45s per sida, l\u00e5ngsamt, samma princip\nS\u00e4te/glute \u2014 30s per sida\n\nStatisk stretch efter\u00e5t (~3 min):\n\nSt\u00e5ende quadstretch (dra h\u00e4len mot s\u00e4tet) \u2014 30s x2 per ben\nH\u00f6ftb\u00f6jarstretch (kn\u00e4st\u00e5ende utfallsposition) \u2014 30s x2 per ben\nTFL/IT-band-stretch (st\u00e5 med det \u00f6mma benet bakom det andra, luta h\u00f6ften \u00e5t sidan) \u2014 30s per sida\n\nG\u00f6r det p\u00e5 vilodagar och efter lugna pass, inte direkt f\u00f6re h\u00e5rd l\u00f6pning. Vill du att jag l\u00e4gger in det som en \u00e5terkommande sak att checka av, eller r\u00e4cker det att ha det h\u00e4r att g\u00e5 tillbaka till?"
+    },
+    {
       "id": 124559892,
       "date": "2026-08-19",
       "name": "Int 2x15min tempo + 4x strides trail",
@@ -936,6 +947,17 @@
       "duration_formatted": "1h10m12s",
       "workout_summary": "11m6s | 2\u00d715m / 5m rec | 4\u00d730s / 1m30s rec | 11m6s",
       "description": "Warmup\n- 2km Z2 HR\n\nMain Set 2x\n- 15m Z3 HR tempo\n- 5m Z2 HR\n\nStrides 4x\n- 30s Z3 HR\n- 90s Z1 HR\n\nCooldown\n- 2km Z2 HR"
+    },
+    {
+      "id": 130232006,
+      "date": "2026-08-20",
+      "name": "Stretch",
+      "type": "WORKOUT",
+      "planned_tss": null,
+      "duration_hours": 0.13,
+      "duration_formatted": "8m",
+      "workout_summary": null,
+      "description": "Med foamroller (g\u00f6rs f\u00f6re stretchen, ~4-5 min):\n\nFramsida l\u00e5r (quadriceps) \u2014 rulla l\u00e5ngsamt, 45s per ben, pausa 10s p\u00e5 \u00f6mma punkter\nUtsida l\u00e5r/IT-band \u2014 45s per sida, l\u00e5ngsamt, samma princip\nS\u00e4te/glute \u2014 30s per sida\n\nStatisk stretch efter\u00e5t (~3 min):\n\nSt\u00e5ende quadstretch (dra h\u00e4len mot s\u00e4tet) \u2014 30s x2 per ben\nH\u00f6ftb\u00f6jarstretch (kn\u00e4st\u00e5ende utfallsposition) \u2014 30s x2 per ben\nTFL/IT-band-stretch (st\u00e5 med det \u00f6mma benet bakom det andra, luta h\u00f6ften \u00e5t sidan) \u2014 30s per sida\n\nG\u00f6r det p\u00e5 vilodagar och efter lugna pass, inte direkt f\u00f6re h\u00e5rd l\u00f6pning. Vill du att jag l\u00e4gger in det som en \u00e5terkommande sak att checka av, eller r\u00e4cker det att ha det h\u00e4r att g\u00e5 tillbaka till?"
     },
     {
       "id": 124565720,
@@ -949,6 +971,28 @@
       "description": "- 1h Z2 HR"
     },
     {
+      "id": 130232008,
+      "date": "2026-08-21",
+      "name": "Stretch",
+      "type": "WORKOUT",
+      "planned_tss": null,
+      "duration_hours": 0.13,
+      "duration_formatted": "8m",
+      "workout_summary": null,
+      "description": "Med foamroller (g\u00f6rs f\u00f6re stretchen, ~4-5 min):\n\nFramsida l\u00e5r (quadriceps) \u2014 rulla l\u00e5ngsamt, 45s per ben, pausa 10s p\u00e5 \u00f6mma punkter\nUtsida l\u00e5r/IT-band \u2014 45s per sida, l\u00e5ngsamt, samma princip\nS\u00e4te/glute \u2014 30s per sida\n\nStatisk stretch efter\u00e5t (~3 min):\n\nSt\u00e5ende quadstretch (dra h\u00e4len mot s\u00e4tet) \u2014 30s x2 per ben\nH\u00f6ftb\u00f6jarstretch (kn\u00e4st\u00e5ende utfallsposition) \u2014 30s x2 per ben\nTFL/IT-band-stretch (st\u00e5 med det \u00f6mma benet bakom det andra, luta h\u00f6ften \u00e5t sidan) \u2014 30s per sida\n\nG\u00f6r det p\u00e5 vilodagar och efter lugna pass, inte direkt f\u00f6re h\u00e5rd l\u00f6pning. Vill du att jag l\u00e4gger in det som en \u00e5terkommande sak att checka av, eller r\u00e4cker det att ha det h\u00e4r att g\u00e5 tillbaka till?"
+    },
+    {
+      "id": 130232010,
+      "date": "2026-08-22",
+      "name": "Stretch",
+      "type": "WORKOUT",
+      "planned_tss": null,
+      "duration_hours": 0.13,
+      "duration_formatted": "8m",
+      "workout_summary": null,
+      "description": "Med foamroller (g\u00f6rs f\u00f6re stretchen, ~4-5 min):\n\nFramsida l\u00e5r (quadriceps) \u2014 rulla l\u00e5ngsamt, 45s per ben, pausa 10s p\u00e5 \u00f6mma punkter\nUtsida l\u00e5r/IT-band \u2014 45s per sida, l\u00e5ngsamt, samma princip\nS\u00e4te/glute \u2014 30s per sida\n\nStatisk stretch efter\u00e5t (~3 min):\n\nSt\u00e5ende quadstretch (dra h\u00e4len mot s\u00e4tet) \u2014 30s x2 per ben\nH\u00f6ftb\u00f6jarstretch (kn\u00e4st\u00e5ende utfallsposition) \u2014 30s x2 per ben\nTFL/IT-band-stretch (st\u00e5 med det \u00f6mma benet bakom det andra, luta h\u00f6ften \u00e5t sidan) \u2014 30s per sida\n\nG\u00f6r det p\u00e5 vilodagar och efter lugna pass, inte direkt f\u00f6re h\u00e5rd l\u00f6pning. Vill du att jag l\u00e4gger in det som en \u00e5terkommande sak att checka av, eller r\u00e4cker det att ha det h\u00e4r att g\u00e5 tillbaka till?"
+    },
+    {
       "id": 124559808,
       "date": "2026-08-22",
       "name": "Base Long Run",
@@ -958,6 +1002,17 @@
       "duration_formatted": "3h30m51s",
       "workout_summary": null,
       "description": "- 38km Z2 HR"
+    },
+    {
+      "id": 130232011,
+      "date": "2026-08-23",
+      "name": "Stretch",
+      "type": "WORKOUT",
+      "planned_tss": null,
+      "duration_hours": 0.13,
+      "duration_formatted": "8m",
+      "workout_summary": null,
+      "description": "Med foamroller (g\u00f6rs f\u00f6re stretchen, ~4-5 min):\n\nFramsida l\u00e5r (quadriceps) \u2014 rulla l\u00e5ngsamt, 45s per ben, pausa 10s p\u00e5 \u00f6mma punkter\nUtsida l\u00e5r/IT-band \u2014 45s per sida, l\u00e5ngsamt, samma princip\nS\u00e4te/glute \u2014 30s per sida\n\nStatisk stretch efter\u00e5t (~3 min):\n\nSt\u00e5ende quadstretch (dra h\u00e4len mot s\u00e4tet) \u2014 30s x2 per ben\nH\u00f6ftb\u00f6jarstretch (kn\u00e4st\u00e5ende utfallsposition) \u2014 30s x2 per ben\nTFL/IT-band-stretch (st\u00e5 med det \u00f6mma benet bakom det andra, luta h\u00f6ften \u00e5t sidan) \u2014 30s per sida\n\nG\u00f6r det p\u00e5 vilodagar och efter lugna pass, inte direkt f\u00f6re h\u00e5rd l\u00f6pning. Vill du att jag l\u00e4gger in det som en \u00e5terkommande sak att checka av, eller r\u00e4cker det att ha det h\u00e4r att g\u00e5 tillbaka till?"
     },
     {
       "id": 124565018,
@@ -1259,7 +1314,7 @@
     "success": 5,
     "patternA": 5,
     "patternB": 0,
-    "bail_no_workout_doc": 3,
+    "bail_no_workout_doc": 8,
     "bail_no_match": 13
   },
   "weekly_summary": {
