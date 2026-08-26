@@ -15,7 +15,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-08-26T05:02:39.418069",
+    "last_updated": "2026-08-26T05:48:04.575973",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.74"
@@ -131,7 +131,7 @@
       "atl": 16.24,
       "tsb": 19.56,
       "ramp_rate": -3.93,
-      "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
+      "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
       "eftp": null,
@@ -307,9 +307,9 @@
         "note": "Compares 7d vs 28d Seiler TID to detect distribution shifts. pi_delta positive = more polarized acutely."
       }
     },
-    "consistency_index": 0.14,
+    "consistency_index": 0.17,
     "consistency_details": {
-      "planned_days": 7,
+      "planned_days": 6,
       "completed_days": 1,
       "matched_days": 1,
       "planned_dates": [
@@ -318,8 +318,7 @@
         "2026-08-22",
         "2026-08-23",
         "2026-08-24",
-        "2026-08-25",
-        "2026-08-26"
+        "2026-08-25"
       ],
       "completed_dates": [
         "2026-08-20"
@@ -337,11 +336,11 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 1.32,
-          "hard_sessions_planned": 1,
+          "planned_tss_delta": null,
+          "hard_sessions_planned": 0,
           "race_proximity": 24,
           "next_week_load": 0.78,
-          "plan_coverage_current_week": 1.0,
+          "plan_coverage_current_week": 0.2,
           "plan_coverage_next_week": 1.6
         },
         "data_quality": "good",
@@ -375,13 +374,13 @@
     "p_max": null,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-08-26T05:02:39.417226",
+    "calculation_timestamp": "2026-08-26T05:48:04.575114",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 6,
       "activities_7d": 5,
       "activities_28d": 20,
-      "planned_workouts_7d": 12,
+      "planned_workouts_7d": 11,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 0
@@ -727,35 +726,13 @@
       "sleep_quality": null,
       "sleep_score": null,
       "mental_energy": null,
-      "fatigue": null,
-      "soreness": null,
+      "fatigue": 1,
+      "soreness": 1,
       "avg_sleeping_hr": 61.0,
       "vo2max": null
     }
   ],
   "planned_workouts": [
-    {
-      "id": 124559895,
-      "date": "2026-08-26",
-      "name": "Int 5x3m 7/10 effort",
-      "type": "WORKOUT",
-      "planned_tss": 59,
-      "duration_hours": 0.97,
-      "duration_formatted": "58m18s",
-      "workout_summary": "16m39s | 5\u00d73m / 2m rec | 16m39s",
-      "description": "Warmup\n- 3km Z2 HR\n\nMain Set 5x\n- 3m Z3 HR 7/10 effort\n- 2m Z2 HR\n\nCooldown\n- 3km Z2 HR"
-    },
-    {
-      "id": 124565493,
-      "date": "2026-08-27",
-      "name": "Base run",
-      "type": "WORKOUT",
-      "planned_tss": 57,
-      "duration_hours": 1.0,
-      "duration_formatted": "1h",
-      "workout_summary": null,
-      "description": "- 1h Z2 HR"
-    },
     {
       "id": 124562258,
       "date": "2026-08-29",
@@ -766,28 +743,6 @@
       "duration_formatted": "0s",
       "workout_summary": null,
       "description": "Half marathon day 1\n2 hours easy day 2"
-    },
-    {
-      "id": 124559317,
-      "date": "2026-08-29",
-      "name": "Base Long Run",
-      "type": "WORKOUT",
-      "planned_tss": 129,
-      "duration_hours": 2.31,
-      "duration_formatted": "2h18m43s",
-      "workout_summary": null,
-      "description": "- 25km Z2 HR"
-    },
-    {
-      "id": 124562184,
-      "date": "2026-08-30",
-      "name": "Base Long Run",
-      "type": "WORKOUT",
-      "planned_tss": 117,
-      "duration_hours": 1.66,
-      "duration_formatted": "1h39m53s",
-      "workout_summary": null,
-      "description": "- 18km Z2,2 HR"
     },
     {
       "id": 109129824,
@@ -976,12 +931,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 12,
-    "success": 4,
-    "patternA": 4,
+    "attempted": 8,
+    "success": 3,
+    "patternA": 3,
     "patternB": 0,
     "bail_no_workout_doc": 3,
-    "bail_no_match": 8
+    "bail_no_match": 5
   },
   "weekly_summary": {
     "total_training_hours": 2.98,
