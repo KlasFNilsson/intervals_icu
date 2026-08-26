@@ -15,7 +15,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-08-26T02:43:23.094295",
+    "last_updated": "2026-08-26T03:39:20.684831",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.74"
@@ -44,7 +44,7 @@
       "rhr": {
         "status": "unavailable",
         "value": null,
-        "baseline_7d": 56.6,
+        "baseline_7d": 57.2,
         "delta_bpm": null
       },
       "sleep": {
@@ -183,8 +183,8 @@
       }
     },
     "current_metrics": {
-      "weight_kg": 81.091,
-      "resting_hr": 57,
+      "weight_kg": 81.652,
+      "resting_hr": 60,
       "hrv": null,
       "sleep_quality": null,
       "sleep_hours": null,
@@ -194,9 +194,9 @@
   "derived_metrics": {
     "recovery_index": null,
     "hrv_baseline_7d": 25.0,
-    "rhr_baseline_7d": 56.6,
+    "rhr_baseline_7d": 57.2,
     "hrv_baseline_28d": 30.9,
-    "rhr_baseline_28d": 55.1,
+    "rhr_baseline_28d": 55.3,
     "latest_hrv": null,
     "latest_rhr": null,
     "acwr": 0.68,
@@ -375,10 +375,10 @@
     "p_max": null,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-08-26T02:43:23.093434",
+    "calculation_timestamp": "2026-08-26T03:39:20.684249",
     "data_quality": {
       "hrv_data_points": 6,
-      "rhr_data_points": 5,
+      "rhr_data_points": 6,
       "activities_7d": 5,
       "activities_28d": 20,
       "planned_workouts_7d": 12,
@@ -702,8 +702,8 @@
     },
     {
       "date": "2026-08-25",
-      "weight_kg": null,
-      "resting_hr": null,
+      "weight_kg": 81.652,
+      "resting_hr": 60,
       "hrv_rmssd": 13.0,
       "hrv_sdnn": null,
       "sleep_hours": 6.63,
@@ -714,7 +714,7 @@
       "fatigue": null,
       "soreness": null,
       "avg_sleeping_hr": 79.0,
-      "vo2max": null
+      "vo2max": 50.08
     },
     {
       "date": "2026-08-26",
@@ -989,7 +989,7 @@
     "total_tss": 104,
     "activities_count": 5,
     "avg_hrv": 25.0,
-    "avg_resting_hr": 56.6
+    "avg_resting_hr": 57.2
   },
   "race_calendar": {
     "next_race": {
