@@ -15,7 +15,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-09-04T23:36:08.220637",
+    "last_updated": "2026-09-05T01:23:42.708439",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.74"
@@ -29,6 +29,15 @@
       "context": "ACWR 0.78 at edge of optimal range. Monitor closely. Alarm at 0.75/1.35.",
       "persistence_days": null,
       "tier": 2
+    },
+    {
+      "metric": "race_taper",
+      "value": 14,
+      "severity": "info",
+      "threshold": "RACE_A within 8-14 days",
+      "context": "RACE_A 'V\u00e4rmd\u00f6 Ultra 50' in 14 days. Begin volume reduction (target 41-60% over 2 weeks). Maintain intensity. CTL should peak now or within the next few days.",
+      "persistence_days": null,
+      "tier": 1
     }
   ],
   "readiness_decision": {
@@ -36,20 +45,20 @@
     "priority": 2,
     "signals": {
       "hrv": {
-        "status": "amber",
-        "value": 19.0,
-        "baseline_7d": 21.1,
-        "delta_pct": -10.0
+        "status": "unavailable",
+        "value": null,
+        "baseline_7d": 17.2,
+        "delta_pct": null
       },
       "rhr": {
         "status": "unavailable",
         "value": null,
-        "baseline_7d": 61.3,
+        "baseline_7d": 62,
         "delta_bpm": null
       },
       "sleep": {
-        "status": "amber",
-        "hours": 6.4,
+        "status": "unavailable",
+        "hours": null,
         "quality": null
       },
       "acwr": {
@@ -66,26 +75,24 @@
       },
       "tsb": {
         "status": "green",
-        "value": 14.4
+        "value": 16.1
       }
     },
     "signal_summary": {
       "green": 1,
-      "amber": 4,
+      "amber": 2,
       "red": 0,
-      "unavailable": 2
+      "unavailable": 4
     },
     "phase_context": {
-      "phase": "Peak",
+      "phase": "Taper",
       "phase_week": 0,
-      "amber_threshold": 2,
-      "modifier_applied": "default"
+      "amber_threshold": 1,
+      "modifier_applied": "taper_tightened"
     },
     "race_week_defers": false,
     "modification": {
       "triggers": [
-        "hrv",
-        "sleep",
         "acwr",
         "feel"
       ],
@@ -95,13 +102,13 @@
         "cap_zone": "Z2"
       }
     },
-    "reason": "P2 signal count. 4 amber (hrv, sleep, acwr, feel) >= threshold 2.",
+    "reason": "P2 signal count. 2 amber (acwr, feel) >= threshold 1.",
     "alarm_refs": []
   },
   "history": {
     "available": true,
     "last_generated": "2026-07-19",
-    "age_days": 47,
+    "age_days": 48,
     "total_months": 35,
     "history_confidence": "high"
   },
@@ -133,10 +140,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 32.44,
-      "atl": 18.03,
-      "tsb": 14.41,
-      "ramp_rate": -3.2,
+      "ctl": 31.68,
+      "atl": 15.63,
+      "tsb": 16.05,
+      "ramp_rate": -3.13,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
@@ -191,19 +198,19 @@
     "current_metrics": {
       "weight_kg": 81.185005,
       "resting_hr": 59,
-      "hrv": 19.0,
+      "hrv": null,
       "sleep_quality": null,
-      "sleep_hours": 6.4,
-      "sleep_formatted": "6h24m"
+      "sleep_hours": null,
+      "sleep_formatted": null
     }
   },
   "derived_metrics": {
     "recovery_index": null,
-    "hrv_baseline_7d": 21.1,
-    "rhr_baseline_7d": 61.3,
-    "hrv_baseline_28d": 25.8,
-    "rhr_baseline_28d": 58.0,
-    "latest_hrv": 19.0,
+    "hrv_baseline_7d": 17.2,
+    "rhr_baseline_7d": 62,
+    "hrv_baseline_28d": 26.2,
+    "rhr_baseline_28d": 57.9,
+    "latest_hrv": null,
     "latest_rhr": null,
     "acwr": 0.78,
     "acwr_interpretation": "undertraining",
@@ -321,10 +328,10 @@
       "note": "No planned workouts in period"
     },
     "phase_detection": {
-      "phase": "Peak",
+      "phase": "Taper",
       "confidence": "medium",
       "reason_codes": [
-        "RACE_APPROACHING_CTL_HIGH"
+        "RACE_IMMINENT"
       ],
       "basis": {
         "stream_1": {
@@ -336,22 +343,22 @@
         "stream_2": {
           "planned_tss_delta": null,
           "hard_sessions_planned": 0,
-          "race_proximity": 15,
+          "race_proximity": 14,
           "next_week_load": 0.5,
-          "plan_coverage_current_week": 0.2,
+          "plan_coverage_current_week": 0.0,
           "plan_coverage_next_week": 1.0
         },
         "data_quality": "good",
-        "stream_agreement": null
+        "stream_agreement": false
       },
       "previous_phase": "Build",
       "phase_duration_weeks": 0,
       "dossier_declared": null,
       "dossier_agreement": null
     },
-    "phase_detected": "Peak",
+    "phase_detected": "Taper",
     "phase_triggers": [
-      "RACE_APPROACHING_CTL_HIGH"
+      "RACE_IMMINENT"
     ],
     "seasonal_context": "Late Season / Transition",
     "benchmark_indoor": {
@@ -374,13 +381,13 @@
     "p_max": null,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-09-04T23:36:08.219786",
+    "calculation_timestamp": "2026-09-05T01:23:42.707564",
     "data_quality": {
-      "hrv_data_points": 7,
-      "rhr_data_points": 6,
+      "hrv_data_points": 6,
+      "rhr_data_points": 5,
       "activities_7d": 5,
       "activities_28d": 23,
-      "planned_workouts_7d": 5,
+      "planned_workouts_7d": 4,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 0
@@ -629,22 +636,6 @@
   ],
   "wellness_data": [
     {
-      "date": "2026-08-29",
-      "weight_kg": null,
-      "resting_hr": 58,
-      "hrv_rmssd": 45.0,
-      "hrv_sdnn": null,
-      "sleep_hours": 6.13,
-      "sleep_formatted": "6h8m",
-      "sleep_quality": null,
-      "sleep_score": null,
-      "mental_energy": null,
-      "fatigue": 2,
-      "soreness": 1,
-      "avg_sleeping_hr": 60.0,
-      "vo2max": null
-    },
-    {
       "date": "2026-08-30",
       "weight_kg": 81.185005,
       "resting_hr": 63,
@@ -739,20 +730,25 @@
       "soreness": null,
       "avg_sleeping_hr": 77.0,
       "vo2max": null
+    },
+    {
+      "date": "2026-09-05",
+      "weight_kg": null,
+      "resting_hr": null,
+      "hrv_rmssd": null,
+      "hrv_sdnn": null,
+      "sleep_hours": null,
+      "sleep_formatted": null,
+      "sleep_quality": null,
+      "sleep_score": null,
+      "mental_energy": null,
+      "fatigue": null,
+      "soreness": null,
+      "avg_sleeping_hr": null,
+      "vo2max": null
     }
   ],
   "planned_workouts": [
-    {
-      "id": 126896143,
-      "date": "2026-09-04",
-      "name": "Amsterdam",
-      "type": "HOLIDAY",
-      "planned_tss": null,
-      "duration_hours": 0.0,
-      "duration_formatted": "0s",
-      "workout_summary": null,
-      "description": ""
-    },
     {
       "id": 109129825,
       "date": "2026-09-07",
@@ -806,7 +802,7 @@
       "duration_hours": 1.85,
       "duration_formatted": "1h50m59s",
       "workout_summary": null,
-      "description_preview": "- 20km Z2 HR"
+      "description": "- 20km Z2 HR"
     },
     {
       "id": 109129826,
@@ -865,8 +861,8 @@
     "total_training_formatted": "3h38m",
     "total_tss": 106,
     "activities_count": 5,
-    "avg_hrv": 21.1,
-    "avg_resting_hr": 61.3
+    "avg_hrv": 17.2,
+    "avg_resting_hr": 62.0
   },
   "race_calendar": {
     "next_race": {
@@ -874,7 +870,7 @@
       "date": "2026-09-19",
       "category": "RACE_A",
       "type": "TrailRun",
-      "days_until": 15,
+      "days_until": 14,
       "moving_time_seconds": 21600,
       "distance_meters": 50000.0
     },
@@ -884,13 +880,17 @@
         "date": "2026-09-19",
         "category": "RACE_A",
         "type": "TrailRun",
-        "days_until": 15,
+        "days_until": 14,
         "moving_time_seconds": 21600,
         "distance_meters": 50000.0
       }
     ],
     "taper_alert": {
-      "active": false
+      "active": true,
+      "event_name": "V\u00e4rmd\u00f6 Ultra 50",
+      "event_date": "2026-09-19",
+      "days_until": 14,
+      "message": "RACE_A 'V\u00e4rmd\u00f6 Ultra 50' in 14 days. Begin volume reduction (target 41-60% over 2 weeks). Maintain intensity. CTL should peak now or within the next few days."
     },
     "race_week": {
       "active": false
