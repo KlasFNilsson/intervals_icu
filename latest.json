@@ -15,7 +15,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-09-10T01:04:07.356038",
+    "last_updated": "2026-09-10T05:56:50.717646",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.74"
@@ -57,8 +57,8 @@
         "delta_bpm": null
       },
       "sleep": {
-        "status": "unavailable",
-        "hours": null,
+        "status": "amber",
+        "hours": 5.32,
         "quality": null
       },
       "acwr": {
@@ -75,14 +75,14 @@
       },
       "tsb": {
         "status": "green",
-        "value": 11.1
+        "value": 15.8
       }
     },
     "signal_summary": {
       "green": 2,
-      "amber": 1,
+      "amber": 2,
       "red": 0,
-      "unavailable": 4
+      "unavailable": 3
     },
     "phase_context": {
       "phase": "Taper",
@@ -93,6 +93,7 @@
     "race_week_defers": false,
     "modification": {
       "triggers": [
+        "sleep",
         "acwr"
       ],
       "suggested_adjustments": {
@@ -101,7 +102,7 @@
         "cap_zone": "Z2"
       }
     },
-    "reason": "P2 signal count. 1 amber (acwr) >= threshold 1.",
+    "reason": "P2 signal count. 2 amber (sleep, acwr) >= threshold 1.",
     "alarm_refs": []
   },
   "history": {
@@ -133,10 +134,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 30.87,
-      "atl": 19.78,
-      "tsb": 11.09,
-      "ramp_rate": -1.72,
+      "ctl": 29.7,
+      "atl": 13.89,
+      "tsb": 15.81,
+      "ramp_rate": -2.9,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
@@ -193,8 +194,8 @@
       "resting_hr": 62,
       "hrv": null,
       "sleep_quality": null,
-      "sleep_hours": null,
-      "sleep_formatted": null
+      "sleep_hours": 5.32,
+      "sleep_formatted": "5h18m"
     }
   },
   "derived_metrics": {
@@ -378,7 +379,7 @@
     "p_max": null,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-09-10T01:04:07.355099",
+    "calculation_timestamp": "2026-09-10T05:56:50.716854",
     "data_quality": {
       "hrv_data_points": 5,
       "rhr_data_points": 5,
@@ -602,14 +603,14 @@
       "resting_hr": null,
       "hrv_rmssd": null,
       "hrv_sdnn": null,
-      "sleep_hours": null,
-      "sleep_formatted": null,
+      "sleep_hours": 5.32,
+      "sleep_formatted": "5h18m",
       "sleep_quality": null,
       "sleep_score": null,
       "mental_energy": null,
       "fatigue": null,
       "soreness": null,
-      "avg_sleeping_hr": null,
+      "avg_sleeping_hr": 70.0,
       "vo2max": null
     }
   ],
